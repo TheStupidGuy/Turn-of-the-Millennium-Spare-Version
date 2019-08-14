@@ -1,0 +1,33 @@
+
+state={
+	id=80
+	name="STATE_80"
+	resources={
+		aluminium=1.000
+		chromium=0.000
+		steel=0.000
+	}
+
+	history={
+		owner = X12
+		victory_points = {
+			7497 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = RAJ
+		add_core_of = X55
+	}
+
+	provinces={
+		7497 12375 12480 
+	}
+	manpower=556000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

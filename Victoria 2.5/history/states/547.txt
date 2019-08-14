@@ -1,0 +1,31 @@
+
+state={
+	id=547
+	name="STATE_547"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = U78
+		victory_points = {
+			12738 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = NIC
+		add_core_of = U78
+	}
+
+	provinces={
+		1988 2075 10728 12738 
+	}
+	manpower=296000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

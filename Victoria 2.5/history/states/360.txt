@@ -1,0 +1,32 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		aluminium=8.000
+		steel=2.000
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			1896 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = AZR
+		add_core_of = PER
+	}
+
+	provinces={
+		1636 1822 1896 2071 4553 4755 4825 4901 7604 10454 10523 12793 12861 
+	}
+	manpower=1692336
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

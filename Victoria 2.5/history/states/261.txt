@@ -1,0 +1,32 @@
+
+state={
+	id=261
+	name="STATE_261"
+	resources={
+		chromium=3.000
+		steel=5.000
+	}
+
+	history={
+		owner = X33
+		victory_points = {
+			10203 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = GRE
+		add_core_of = X33
+	}
+
+	provinces={
+		1106 10203 
+	}
+	manpower=188420
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

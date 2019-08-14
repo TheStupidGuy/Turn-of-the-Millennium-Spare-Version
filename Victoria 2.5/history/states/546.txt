@@ -1,0 +1,32 @@
+
+state={
+	id=546
+	name="STATE_546"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = U78
+		victory_points = {
+			12865 13 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = ELS
+		add_core_of = HON
+		add_core_of = U78
+	}
+
+	provinces={
+		2031 8017 12823 12865 13093 
+	}
+	manpower=788200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

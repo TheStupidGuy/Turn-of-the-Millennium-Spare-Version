@@ -1,0 +1,31 @@
+
+state={
+	id=540
+	name="STATE_540"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			8085 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = IRQ
+		add_core_of = TUR
+	}
+
+	provinces={
+		78 2004 2089 7977 8085 12726 12855 
+	}
+	manpower=409400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

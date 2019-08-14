@@ -1,0 +1,32 @@
+
+state={
+	id=510
+	name="STATE_510"
+	resources={
+		aluminium=2.000
+		rubber=7.000
+	}
+
+	history={
+		owner = X78
+		victory_points = {
+			7402 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X78
+	}
+
+	provinces={
+		1238 1321 7288 7402 10130 
+	}
+	manpower=1285200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

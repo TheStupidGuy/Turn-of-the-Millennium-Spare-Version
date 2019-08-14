@@ -1,0 +1,29 @@
+
+state={
+	id=384
+	name="STATE_384"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			12958 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		12958 12985 
+	}
+	manpower=231996
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=27
+	name="STATE_27"
+	resources={
+		aluminium=11.000
+		chromium=6.000
+		steel=1.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			3696 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = AUS
+		add_core_of = HUN
+		add_core_of = ROM
+		add_core_of = X74
+	}
+
+	provinces={
+		646 662 696 713 746 3649 3696 6682 6697 9606 9640 9687 11592 11608 
+	}
+	manpower=2634300
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=337
+	name="STATE_337"
+	resources={
+		oil=16.000
+		rubber=242.000
+		steel=4.000
+	}
+
+	history={
+		owner = HOL
+		victory_points = {
+			7381 6 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			7381 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = INS
+	}
+
+	provinces={
+		1209 1386 1398 1413 1425 4306 4390 4406 4434 4608 4621 7223 7381 7421 7642 7654 10135 10279 10307 10479 10491 12249 12277 12293 12472 
+	}
+	manpower=8266592
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

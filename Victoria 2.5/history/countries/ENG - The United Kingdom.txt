@@ -1,0 +1,574 @@
+﻿capital = 162
+set_research_slots = 4
+
+oob = "ENG_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ENG_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "ENG_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+# Research Bonuses
+set_convoys = 0
+
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = X02
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X05
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X07
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X08
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X09
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X12
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X23
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X25
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X31
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X32
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X33
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X34
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X36
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X37
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X41
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X51
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X54
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X55
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X63
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X78
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = X02
+        puppet = X05
+        puppet = X07
+        puppet = X08
+        puppet = X09
+        puppet = X12
+        puppet = X23
+        puppet = X25
+        puppet = X31
+        puppet = X32
+        puppet = X33
+        puppet = X34
+        puppet = X36
+        puppet = X37
+        puppet = X41
+        puppet = X51
+        puppet = X54
+        puppet = X55
+        puppet = X63
+        puppet = X78 
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
+}
+
+set_politics = {
+    ruling_party = parliamentary
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	parliamentary = 100
+}
+
+
+
+
+add_opinion_modifier = { target = AFG modifier = positive_125 }
+add_opinion_modifier = { target = ALG modifier = negative_10 }
+add_opinion_modifier = { target = ARG modifier = positive_124 }
+add_opinion_modifier = { target = AUS modifier = negative_15 }
+add_opinion_modifier = { target = BEL modifier = positive_125 }
+add_opinion_modifier = { target = BHU modifier = positive_100 }
+add_opinion_modifier = { target = BOL modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = positive_15 }
+add_opinion_modifier = { target = BRM modifier = negative_4 }
+add_opinion_modifier = { target = BRU modifier = negative_10 }
+add_opinion_modifier = { target = CAM modifier = negative_10 }
+add_opinion_modifier = { target = CHI modifier = negative_10 }
+add_opinion_modifier = { target = CHL modifier = positive_5 }
+add_opinion_modifier = { target = COL modifier = positive_5 }
+add_opinion_modifier = { target = DEN modifier = negative_49 }
+add_opinion_modifier = { target = ECU modifier = positive_5 }
+add_opinion_modifier = { target = EGY modifier = positive_125 }
+add_opinion_modifier = { target = ETH modifier = positive_5 }
+add_opinion_modifier = { target = FRA modifier = negative_4 }
+add_opinion_modifier = { target = GRE modifier = positive_125 }
+add_opinion_modifier = { target = GXC modifier = positive_55 }
+add_opinion_modifier = { target = HAI modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = negative_99 }
+add_opinion_modifier = { target = JAP modifier = negative_10 }
+add_opinion_modifier = { target = KOR modifier = negative_10 }
+add_opinion_modifier = { target = KYR modifier = negative_10 }
+add_opinion_modifier = { target = LAO modifier = negative_10 }
+add_opinion_modifier = { target = LBA modifier = negative_10 }
+add_opinion_modifier = { target = LIB modifier = positive_20 }
+add_opinion_modifier = { target = LUX modifier = positive_5 }
+add_opinion_modifier = { target = MAD modifier = positive_5 }
+add_opinion_modifier = { target = MAN modifier = negative_10 }
+add_opinion_modifier = { target = MEX modifier = positive_5 }
+add_opinion_modifier = { target = MNT modifier = positive_5 }
+add_opinion_modifier = { target = MOL modifier = positive_5 }
+add_opinion_modifier = { target = MON modifier = negative_10 }
+add_opinion_modifier = { target = MOR modifier = negative_9 }
+add_opinion_modifier = { target = NEP modifier = positive_100 }
+add_opinion_modifier = { target = NGA modifier = negative_10 }
+add_opinion_modifier = { target = OMA modifier = negative_10 }
+add_opinion_modifier = { target = PAR modifier = positive_5 }
+add_opinion_modifier = { target = PER modifier = positive_125 }
+add_opinion_modifier = { target = POR modifier = positive_15 }
+add_opinion_modifier = { target = PRU modifier = positive_5 }
+add_opinion_modifier = { target = SER modifier = positive_5 }
+add_opinion_modifier = { target = SIA modifier = positive_75 }
+add_opinion_modifier = { target = SIK modifier = negative_10 }
+add_opinion_modifier = { target = SOV modifier = negative_14 }
+add_opinion_modifier = { target = SPR modifier = negative_4 }
+add_opinion_modifier = { target = SWE modifier = positive_125 }
+add_opinion_modifier = { target = SWI modifier = positive_20 }
+add_opinion_modifier = { target = TEX modifier = positive_20 }
+add_opinion_modifier = { target = TIB modifier = negative_9 }
+add_opinion_modifier = { target = TMS modifier = negative_10 }
+add_opinion_modifier = { target = TUN modifier = negative_10 }
+add_opinion_modifier = { target = TUR modifier = positive_25 }
+add_opinion_modifier = { target = U78 modifier = positive_4 }
+add_opinion_modifier = { target = UAE modifier = negative_10 }
+add_opinion_modifier = { target = URG modifier = positive_5 }
+add_opinion_modifier = { target = USA modifier = negative_99 }
+add_opinion_modifier = { target = UZB modifier = negative_10 }
+add_opinion_modifier = { target = VAT modifier = positive_5 }
+add_opinion_modifier = { target = VEN modifier = positive_124 }
+add_opinion_modifier = { target = VIN modifier = negative_10 }
+add_opinion_modifier = { target = X00 modifier = positive_20 }
+add_opinion_modifier = { target = X01 modifier = negative_10 }
+add_opinion_modifier = { target = X02 modifier = positive_127 }
+add_opinion_modifier = { target = X03 modifier = positive_5 }
+add_opinion_modifier = { target = X04 modifier = negative_10 }
+add_opinion_modifier = { target = X05 modifier = positive_127 }
+add_opinion_modifier = { target = X06 modifier = positive_5 }
+add_opinion_modifier = { target = X07 modifier = positive_127 }
+add_opinion_modifier = { target = X08 modifier = positive_127 }
+add_opinion_modifier = { target = X09 modifier = positive_127 }
+add_opinion_modifier = { target = X10 modifier = positive_20 }
+add_opinion_modifier = { target = X11 modifier = positive_20 }
+add_opinion_modifier = { target = X12 modifier = positive_127 }
+add_opinion_modifier = { target = X15 modifier = positive_20 }
+add_opinion_modifier = { target = X22 modifier = positive_20 }
+add_opinion_modifier = { target = X23 modifier = positive_92 }
+add_opinion_modifier = { target = X24 modifier = positive_20 }
+add_opinion_modifier = { target = X25 modifier = positive_127 }
+add_opinion_modifier = { target = X26 modifier = positive_20 }
+add_opinion_modifier = { target = X27 modifier = negative_10 }
+add_opinion_modifier = { target = X28 modifier = positive_20 }
+add_opinion_modifier = { target = X29 modifier = positive_20 }
+add_opinion_modifier = { target = X30 modifier = positive_20 }
+add_opinion_modifier = { target = X31 modifier = positive_127 }
+add_opinion_modifier = { target = X32 modifier = positive_127 }
+add_opinion_modifier = { target = X33 modifier = positive_127 }
+add_opinion_modifier = { target = X34 modifier = positive_127 }
+add_opinion_modifier = { target = X36 modifier = positive_127 }
+add_opinion_modifier = { target = X37 modifier = positive_127 }
+add_opinion_modifier = { target = X38 modifier = negative_4 }
+add_opinion_modifier = { target = X39 modifier = negative_10 }
+add_opinion_modifier = { target = X40 modifier = positive_5 }
+add_opinion_modifier = { target = X41 modifier = positive_92 }
+add_opinion_modifier = { target = X43 modifier = positive_20 }
+add_opinion_modifier = { target = X45 modifier = positive_20 }
+add_opinion_modifier = { target = X46 modifier = positive_5 }
+add_opinion_modifier = { target = X47 modifier = negative_10 }
+add_opinion_modifier = { target = X49 modifier = positive_20 }
+add_opinion_modifier = { target = X50 modifier = positive_20 }
+add_opinion_modifier = { target = X51 modifier = positive_127 }
+add_opinion_modifier = { target = X52 modifier = positive_5 }
+add_opinion_modifier = { target = X54 modifier = positive_127 }
+add_opinion_modifier = { target = X55 modifier = positive_127 }
+add_opinion_modifier = { target = X57 modifier = positive_20 }
+add_opinion_modifier = { target = X58 modifier = negative_10 }
+add_opinion_modifier = { target = X61 modifier = positive_20 }
+add_opinion_modifier = { target = X62 modifier = positive_20 }
+add_opinion_modifier = { target = X63 modifier = positive_127 }
+add_opinion_modifier = { target = X64 modifier = negative_49 }
+add_opinion_modifier = { target = X65 modifier = positive_5 }
+add_opinion_modifier = { target = X69 modifier = positive_20 }
+add_opinion_modifier = { target = X70 modifier = positive_20 }
+add_opinion_modifier = { target = X73 modifier = positive_5 }
+add_opinion_modifier = { target = X75 modifier = negative_9 }
+add_opinion_modifier = { target = X76 modifier = negative_50 }
+add_opinion_modifier = { target = X78 modifier = positive_127 }
+add_opinion_modifier = { target = X80 modifier = positive_20 }
+add_opinion_modifier = { target = X81 modifier = positive_5 }
+add_opinion_modifier = { target = X84 modifier = positive_5 }
+add_opinion_modifier = { target = X85 modifier = positive_20 }
+add_opinion_modifier = { target = X87 modifier = positive_5 }
+add_opinion_modifier = { target = X89 modifier = negative_9 }
+add_opinion_modifier = { target = XSM modifier = negative_10 }
+add_opinion_modifier = { target = YEM modifier = negative_10 }
+add_opinion_modifier = { target = YUN modifier = positive_55 }
+
+
+add_ideas = {
+	
+}
+set_stability = 0.60
+set_war_support = 0.60
+create_country_leader = {
+    name = "Absolutist Government"
+    desc = "POLITICS_ABSOLUTIST_DESC"
+    picture = "gfx/leaders/DF/absolutist.tga"
+    expire = "1965.1.1"
+    ideology = absolute_monarchy
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Communist Government"
+    desc = "POLITICS_COMMUNISM_DESC"
+    picture = "gfx/leaders/DF/communism.tga"
+    expire = "1965.1.1"
+    ideology = marxism
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Democratic Government"
+    desc = "POLITICS_DEMOCRATIC_DESC"
+    picture = "gfx/leaders/DF/democratic.tga"
+    expire = "1965.1.1"
+    ideology = conservatism
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Fascist Government"
+    desc = "POLITICS_FASCISM_DESC"
+    picture = "gfx/leaders/DF/fascism.tga"
+    expire = "1965.1.1"
+    ideology = fascism_ideology
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Radical Government"
+    desc = "POLITICS_RADICAL_DESC"
+    picture = "gfx/leaders/DF/radical.tga"
+    expire = "1965.1.1"
+    ideology = minarchism
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Dictatorial Government"
+    desc = "POLITICS_DICTATORSHIP_DESC"
+    picture = "gfx/leaders/DF/dictatorship.tga"
+    expire = "1965.1.1"
+    ideology = dictatorship_ideology
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Theocratic Government"
+    desc = "POLITICS_THEOCRACY_DESC"
+    picture = "gfx/leaders/DF/theocracy.tga"
+    expire = "1965.1.1"
+    ideology = theocracy_ideology
+    traits = {
+    }
+}
+create_country_leader = { 
+ name = "Parliamentary Government" 
+ desc = "POLITICS_PARLIAMENTARY_DESC" 
+ picture = "gfx/leaders/DF/parliamentary.tga" 
+ expire = "1965.1.1" 
+ ideology = parliamentary_ideology
+ traits = { } 
+ }
+create_corps_commander = {
+	name = "Hugh Gough"
+	picture = ""
+	traits = { }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "John Seaton"
+	picture = ""
+	traits = { }
+	skill = 4
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Whitworth-Aylmer"
+	picture = ""
+	traits = { }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Henry Hardinge"
+	picture = ""
+	traits = { }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Henry Smith"
+	picture = ""
+	traits = { }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "John Fox Burgoyne"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Raglan"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Sir George Brown"
+	picture = ""
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Thomas Cochrane"
+	picture = ""
+	traits = { }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Sir Edward Codrington"
+	picture = ""
+	traits = { }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Sir George Cockburn"
+	picture = ""
+	traits = { }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "James Dundas"
+	picture = ""
+	traits = { }
+	skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = ENG_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = ENG_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = ENG_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

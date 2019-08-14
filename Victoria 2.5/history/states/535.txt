@@ -1,0 +1,29 @@
+
+state={
+	id=535
+	name="STATE_535"
+
+	history={
+		owner = TUR
+		victory_points = {
+			10472 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ARM
+		add_core_of = GEO
+		add_core_of = TUR
+	}
+
+	provinces={
+		789 3653 7454 10403 10472 11753 
+	}
+	manpower=933600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

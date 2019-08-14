@@ -1,0 +1,189 @@
+﻿capital = 31
+set_research_slots = 3
+
+oob = "X68_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X68_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X68_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+	}
+}
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = { absolutist = 100 }
+
+add_opinion_modifier = { target = ARG modifier = positive_5 }
+add_opinion_modifier = { target = AUS modifier = positive_14 }
+add_opinion_modifier = { target = BEL modifier = negative_15 }
+add_opinion_modifier = { target = BOL modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = negative_15 }
+add_opinion_modifier = { target = CHL modifier = positive_5 }
+add_opinion_modifier = { target = COL modifier = positive_5 }
+add_opinion_modifier = { target = DEN modifier = positive_15 }
+add_opinion_modifier = { target = ECU modifier = positive_5 }
+add_opinion_modifier = { target = ENG modifier = positive_5 }
+add_opinion_modifier = { target = ETH modifier = positive_15 }
+add_opinion_modifier = { target = FRA modifier = positive_5 }
+add_opinion_modifier = { target = GRE modifier = positive_10 }
+add_opinion_modifier = { target = HAI modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = positive_15 }
+add_opinion_modifier = { target = LIB modifier = positive_5 }
+add_opinion_modifier = { target = LUX modifier = positive_15 }
+add_opinion_modifier = { target = MAD modifier = positive_15 }
+add_opinion_modifier = { target = MEX modifier = positive_5 }
+add_opinion_modifier = { target = MNT modifier = positive_30 }
+add_opinion_modifier = { target = MOL modifier = positive_30 }
+add_opinion_modifier = { target = PAR modifier = positive_5 }
+add_opinion_modifier = { target = POR modifier = positive_5 }
+add_opinion_modifier = { target = PRU modifier = positive_5 }
+add_opinion_modifier = { target = SER modifier = positive_30 }
+add_opinion_modifier = { target = SOV modifier = positive_55 }
+add_opinion_modifier = { target = SPR modifier = positive_5 }
+add_opinion_modifier = { target = SWE modifier = negative_15 }
+add_opinion_modifier = { target = SWI modifier = negative_15 }
+add_opinion_modifier = { target = TEX modifier = positive_5 }
+add_opinion_modifier = { target = U78 modifier = positive_5 }
+add_opinion_modifier = { target = URG modifier = positive_5 }
+add_opinion_modifier = { target = USA modifier = negative_15 }
+add_opinion_modifier = { target = VAT modifier = positive_15 }
+add_opinion_modifier = { target = VEN modifier = positive_5 }
+add_opinion_modifier = { target = X00 modifier = positive_15 }
+add_opinion_modifier = { target = X03 modifier = positive_15 }
+add_opinion_modifier = { target = X06 modifier = positive_15 }
+add_opinion_modifier = { target = X10 modifier = positive_15 }
+add_opinion_modifier = { target = X11 modifier = positive_5 }
+add_opinion_modifier = { target = X15 modifier = positive_15 }
+add_opinion_modifier = { target = X22 modifier = positive_5 }
+add_opinion_modifier = { target = X24 modifier = positive_5 }
+add_opinion_modifier = { target = X25 modifier = positive_15 }
+add_opinion_modifier = { target = X26 modifier = positive_15 }
+add_opinion_modifier = { target = X28 modifier = positive_15 }
+add_opinion_modifier = { target = X29 modifier = positive_15 }
+add_opinion_modifier = { target = X30 modifier = positive_15 }
+add_opinion_modifier = { target = X33 modifier = positive_20 }
+add_opinion_modifier = { target = X40 modifier = positive_5 }
+add_opinion_modifier = { target = X43 modifier = positive_15 }
+add_opinion_modifier = { target = X45 modifier = positive_5 }
+add_opinion_modifier = { target = X46 modifier = positive_15 }
+add_opinion_modifier = { target = X49 modifier = positive_15 }
+add_opinion_modifier = { target = X50 modifier = positive_15 }
+add_opinion_modifier = { target = X52 modifier = positive_15 }
+add_opinion_modifier = { target = X57 modifier = positive_15 }
+add_opinion_modifier = { target = X61 modifier = positive_15 }
+add_opinion_modifier = { target = X62 modifier = positive_5 }
+add_opinion_modifier = { target = X65 modifier = positive_15 }
+add_opinion_modifier = { target = X67 modifier = positive_15 }
+add_opinion_modifier = { target = X69 modifier = negative_5 }
+add_opinion_modifier = { target = X70 modifier = positive_15 }
+add_opinion_modifier = { target = X73 modifier = negative_5 }
+add_opinion_modifier = { target = X80 modifier = positive_5 }
+add_opinion_modifier = { target = X81 modifier = positive_15 }
+add_opinion_modifier = { target = X84 modifier = positive_30 }
+add_opinion_modifier = { target = X85 modifier = positive_15 }
+add_opinion_modifier = { target = X87 modifier = positive_15 }
+
+
+add_ideas = {
+	
+}
+create_country_leader = {
+    name = "Absolutist Government"
+    desc = "POLITICS_ABSOLUTIST_DESC"
+    picture = "gfx/leaders/DF/absolutist.tga"
+    expire = "1965.1.1"
+    ideology = absolute_monarchy
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Communist Government"
+    desc = "POLITICS_COMMUNISM_DESC"
+    picture = "gfx/leaders/DF/communism.tga"
+    expire = "1965.1.1"
+    ideology = marxism
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Democratic Government"
+    desc = "POLITICS_DEMOCRATIC_DESC"
+    picture = "gfx/leaders/DF/democratic.tga"
+    expire = "1965.1.1"
+    ideology = conservatism
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Fascist Government"
+    desc = "POLITICS_FASCISM_DESC"
+    picture = "gfx/leaders/DF/fascism.tga"
+    expire = "1965.1.1"
+    ideology = fascism_ideology
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Radical Government"
+    desc = "POLITICS_RADICAL_DESC"
+    picture = "gfx/leaders/DF/radical.tga"
+    expire = "1965.1.1"
+    ideology = minarchism
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Dictatorial Government"
+    desc = "POLITICS_DICTATORSHIP_DESC"
+    picture = "gfx/leaders/DF/dictatorship.tga"
+    expire = "1965.1.1"
+    ideology = dictatorship_ideology
+    traits = {
+    }
+}
+create_country_leader = {
+    name = "Theocratic Government"
+    desc = "POLITICS_THEOCRACY_DESC"
+    picture = "gfx/leaders/DF/theocracy.tga"
+    expire = "1965.1.1"
+    ideology = theocracy_ideology
+    traits = {
+    }
+}
+### VARIANTS ###
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+
+ create_country_leader = { 
+ name = "Parliamentary Government" 
+ desc = "POLITICS_PARLIAMENTARY_DESC" 
+ picture = "gfx/leaders/DF/parliamentary.tga" 
+ expire = "1965.1.1" 
+ ideology = parliamentary_ideology  
+ traits = { } 
+ }

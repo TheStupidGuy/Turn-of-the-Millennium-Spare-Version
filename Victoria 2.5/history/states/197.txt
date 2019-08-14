@@ -1,0 +1,29 @@
+
+state={
+	id=197
+	name="STATE_197"
+	resources={
+		oil=16.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			11350 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		379 3284 7123 11106 11350 13009 13012 
+	}
+	manpower=247416
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

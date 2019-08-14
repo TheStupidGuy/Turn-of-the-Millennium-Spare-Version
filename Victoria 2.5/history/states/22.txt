@@ -1,0 +1,31 @@
+
+state={
+	id=22
+	name="STATE_22"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			686 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = AUS
+		add_core_of = HUN
+	}
+
+	provinces={
+		682 686 701 3670 3680 3683 6685 6703 6720 9624 9643 9676 11610 11627 11663 
+	}
+	manpower=2356496
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=611
+	name="STATE_611"
+
+	history={
+	owner = UNC
+		add_core_of = UNC
+		victory_points = {
+			13036 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1002 2489 13027 13028 13029 13030 13031 13032 13033 13034 13035 13036 13039 13040 13041 13042 13043 13044 13045 13046 
+	}
+	manpower=13920
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

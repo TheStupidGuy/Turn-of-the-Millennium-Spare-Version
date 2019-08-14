@@ -1,0 +1,28 @@
+
+state={
+	id=240
+	name="STATE_240"
+
+	history={
+		owner = X23
+		victory_points = {
+			10807 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X23
+	}
+
+	provinces={
+		1949 2036 7080 10807 10816 
+	}
+	manpower=1184000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

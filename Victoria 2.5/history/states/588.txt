@@ -1,0 +1,31 @@
+
+state={
+	id=588
+	name="STATE_588"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = X87
+		victory_points = {
+			9517 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		
+		add_core_of = X87
+	}
+
+	provinces={
+		3690 6555 9517 9545 9655 11486 11499 
+	}
+	manpower=1720100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=328
+	name="STATE_328"
+	resources={
+		aluminium=5.000
+		chromium=6.000
+		steel=6.000
+	}
+
+	history={
+		owner = X55
+		victory_points = {
+			4883 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X55
+	}
+
+	provinces={
+		1510 1579 4557 4883 7574 7619 8120 10171 10401 12420 
+	}
+	manpower=3324568
+	buildings_max_level_factor=1.000
+	state_category=city
+}

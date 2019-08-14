@@ -1,0 +1,31 @@
+
+state={
+	id=349
+	name="STATE_349"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = OMA
+		victory_points = {
+			5210 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = OMA
+		add_core_of = X88
+	}
+
+	provinces={
+		2196 5210 8183 
+	}
+	manpower=564808
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

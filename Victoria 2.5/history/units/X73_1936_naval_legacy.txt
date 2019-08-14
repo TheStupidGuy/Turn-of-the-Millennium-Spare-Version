@@ -1,0 +1,11 @@
+units = {
+	fleet = {
+		name = "Real Marina delle Due Sicilie"
+		naval_base = 819
+		task_force = {
+			name = "Real Marina delle Due Sicilie"
+			location = 819
+			ship = { name = "Ferdinando II" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X73 } } }
+		}
+	}
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=625
+	name="STATE_625"
+	impassable = no
+
+	history={
+	owner = UNC
+		add_core_of = UNC
+		victory_points = {
+			10731 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1095 1958 2049 7041 8088 10731 12711 12842 
+	}
+	manpower=52000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=329
+	name="STATE_329"
+
+	history={
+		owner = X57
+		victory_points = {
+			9486 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		
+		add_core_of = X57
+	}
+
+	provinces={
+		6444 9486 
+	}
+	manpower=402396
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

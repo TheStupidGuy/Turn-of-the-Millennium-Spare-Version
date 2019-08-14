@@ -1,0 +1,32 @@
+
+state={
+	id=479
+	name="STATE_479"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = NGA
+		victory_points = {
+			4889 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = NGA
+	}
+
+	provinces={
+		4889 8109 10820 
+	}
+	manpower=576316
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

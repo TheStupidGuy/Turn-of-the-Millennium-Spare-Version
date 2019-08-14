@@ -1,0 +1,32 @@
+
+state={
+	id=141
+	name="STATE_141"
+	resources={
+		oil=12.000
+		tungsten=31.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			1408 6 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = CAN
+		add_core_of = X16
+	}
+
+	provinces={
+		1214 1393 1408 1420 1799 1858 1869 1872 4385 4413 4428 4877 7259 7820 10228 10258 10273 10548 12231 12259 12272 12508 12571 12578 
+	}
+	manpower=43400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

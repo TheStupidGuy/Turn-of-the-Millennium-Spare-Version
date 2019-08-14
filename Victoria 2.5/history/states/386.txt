@@ -1,0 +1,30 @@
+
+state={
+	id=386
+	name="STATE_386"
+	resources={
+		aluminium=3.000
+		rubber=1.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			2180 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2120 2180 12935 12971 
+	}
+	manpower=388400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=305
+	name="STATE_305"
+	resources={
+		aluminium=52.000
+		oil=20.000
+	}
+
+	history={
+		owner = MEX
+		victory_points = {
+			4975 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		1972 2102 3867 3883 4975 5044 8070 10642 10645 10867 10914 12552 12684 12720 12791 
+	}
+	manpower=55800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

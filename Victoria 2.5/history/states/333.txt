@@ -1,0 +1,35 @@
+
+state={
+	id=333
+	name="STATE_333"
+	resources={
+		oil=1.000
+		steel=6.000
+	}
+
+	history={
+		owner = HOL
+		victory_points = {
+			391 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			9498 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = HOL
+	}
+
+	provinces={
+		68 391 3211 3314 6241 9431 9498 
+	}
+	manpower=1351640
+	buildings_max_level_factor=1.000
+	state_category=town
+}

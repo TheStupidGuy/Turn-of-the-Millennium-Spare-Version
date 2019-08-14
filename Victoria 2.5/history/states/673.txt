@@ -1,0 +1,28 @@
+
+state={
+	id=673
+	name="STATE_673"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		victory_points = {
+			2115 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2115 
+	}
+	manpower=116000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

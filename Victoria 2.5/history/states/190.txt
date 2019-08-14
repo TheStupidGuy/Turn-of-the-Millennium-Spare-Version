@@ -1,0 +1,32 @@
+
+state={
+	id=190
+	name="STATE_190"
+	resources={
+		aluminium=8.000
+		chromium=52.000
+		steel=0.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			4696 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		1833 4584 4696 7576 
+	}
+	manpower=268400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=324
+	name="STATE_324"
+	resources={
+		steel=17.000
+	}
+
+	history={
+		owner = MOR
+		victory_points = {
+			7215 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = MOR
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 
+	}
+	manpower=286000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

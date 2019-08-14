@@ -1,0 +1,31 @@
+
+state={
+	id=464
+	name="STATE_464"
+	resources={
+		steel=58.000
+	}
+
+	history={
+		owner = X70
+		victory_points = {
+			514 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+
+		}
+		
+		add_core_of = X70
+	}
+
+	provinces={
+		514 573 3535 6559 9441 9471 11481 
+	}
+	manpower=1379400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

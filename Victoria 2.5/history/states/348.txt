@@ -1,0 +1,27 @@
+
+state={
+	id=348
+	name="STATE_348"
+
+	history={
+		owner = OMA
+		victory_points = {
+			12991 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = OMA
+	}
+
+	provinces={
+		8164 10928 12991 
+	}
+	manpower=216000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

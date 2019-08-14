@@ -1,0 +1,32 @@
+
+state={
+	id=658
+	name="STATE_658"
+	resources={
+		aluminium=3.000
+		rubber=0.000
+		steel=0.000
+	}
+
+	history={
+	owner = UNC
+		add_core_of = UNC
+		victory_points = {
+			10919 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		10919 12762 12874 
+	}
+	manpower=589200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=462
+	name="STATE_462"
+	resources={
+		aluminium=28.000
+		chromium=4.000
+		steel=40.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X69
+		victory_points = {
+			6780 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			6788 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = ITA
+		add_core_of = X69
+	}
+
+	provinces={
+		611 770 771 776 3772 3782 6635 6780 6788 9738 9741 11570 11721 11723 11726 11730 11891 
+	}
+	manpower=2584000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

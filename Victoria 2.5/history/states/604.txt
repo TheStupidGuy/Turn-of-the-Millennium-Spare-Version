@@ -1,0 +1,32 @@
+
+state={
+	id=604
+	name="STATE_604"
+	resources={
+		oil=4.000
+		steel=4.000
+		tungsten=13.000
+	}
+
+	history={
+	owner = UNC
+		add_core_of = UNC
+		victory_points = {
+			4695 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		736 1671 3481 3498 3800 4695 4739 6779 9669 10656 11440 12682 
+	}
+	manpower=28000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,30 @@
+units = {
+	fleet = {
+		name = "Channel Fleet"
+		naval_base = 6489
+		task_force = {
+			name = "Channel Fleet"
+			location = 6489
+			ship = { name = "HMS Medea" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "HMS Phoenix" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "Mediterranean Fleet"
+		naval_base = 12003
+		task_force = {
+			name = "Mediterranean Fleet"
+			location = 12003
+			ship = { name = "HMS Salamander" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "North America Station"
+		naval_base = 7361
+		task_force = {
+			name = "North America Station"
+			location = 7361
+			ship = { name = "HMS Rhadamanthus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+}

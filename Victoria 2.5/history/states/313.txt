@@ -1,0 +1,30 @@
+
+state={
+	id=313
+	name="STATE_313"
+
+	history={
+		owner = MEX
+		victory_points = {
+			1965 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			12810 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		1965 7913 8089 10732 10773 10889 12810 
+	}
+	manpower=1781796
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

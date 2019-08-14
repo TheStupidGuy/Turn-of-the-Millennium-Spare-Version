@@ -1,0 +1,29 @@
+
+state={
+	id=119
+	name="STATE_119"
+
+	history={
+		owner = ECU
+		victory_points = {
+			8149 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ECU
+		add_core_of = PRU
+		add_core_of = U77
+	}
+
+	provinces={
+		8149 12869 
+	}
+	manpower=36000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

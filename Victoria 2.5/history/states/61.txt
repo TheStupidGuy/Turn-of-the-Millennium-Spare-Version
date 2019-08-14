@@ -1,0 +1,31 @@
+
+state={
+	id=61
+	name="STATE_61"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = X10
+		victory_points = {
+			526 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		
+		add_core_of = X10
+	}
+
+	provinces={
+		526 9375 11493 
+	}
+	manpower=264000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

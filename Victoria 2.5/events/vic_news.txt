@@ -1,0 +1,56 @@
+﻿add_namespace = vic_news
+
+# Formation of Germany
+news_event = {
+	id = vic_news.1
+	title = vic_news.1.t
+	desc = vic_news.1.desc
+	picture = GFX_news_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vic_news.1.a
+		trigger = {
+		    OR = {
+			original_tag = X11
+			original_tag = X24
+			original_tag = X30
+			original_tag = X45
+			original_tag = X15
+			original_tag = X49
+			original_tag = X50
+			original_tag = X85
+			original_tag = X70
+			original_tag = X28
+			original_tag = X29
+			original_tag = X22
+			original_tag = X57
+			original_tag = X03
+			original_tag = X87
+			original_tag = X06
+			original_tag = X67
+			original_tag = X00
+			original_tag = X43
+			original_tag = X10
+			original_tag = X25
+			original_tag = X61
+			}
+		}
+	}
+	option = {
+		name = vic_news.1.b
+		trigger = {
+			NOT = { OR = { original_tag = X67 } }
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = vic_news.1.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+}
+
+###############

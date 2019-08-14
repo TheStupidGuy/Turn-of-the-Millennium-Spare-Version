@@ -1,0 +1,30 @@
+
+state={
+	id=40
+	name="STATE_40"
+
+	history={
+		owner = AUS
+		victory_points = {
+			11580 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = AUS
+		add_core_of = HUN
+		add_core_of = SER
+		add_core_of = YUG
+	}
+
+	provinces={
+		614 619 3614 3617 3623 6643 9621 11580 11787 
+	}
+	manpower=761400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

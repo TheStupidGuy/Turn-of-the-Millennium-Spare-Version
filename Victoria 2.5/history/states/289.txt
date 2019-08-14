@@ -1,0 +1,28 @@
+
+state={
+	id=289
+	name="STATE_289"
+
+	history={
+		owner = X43
+		victory_points = {
+			3355 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		
+		add_core_of = X43
+	}
+
+	provinces={
+		3355 
+	}
+	manpower=98000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

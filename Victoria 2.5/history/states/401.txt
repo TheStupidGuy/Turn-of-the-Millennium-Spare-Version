@@ -1,0 +1,30 @@
+
+state={
+	id=401
+	name="STATE_401"
+
+	history={
+		owner = X67
+		victory_points = {
+			6332 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		
+		add_core_of = LIT
+		add_core_of = X66
+		add_core_of = X67
+	}
+
+	provinces={
+		281 348 395 3288 3384 6332 11265 
+	}
+	manpower=898800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

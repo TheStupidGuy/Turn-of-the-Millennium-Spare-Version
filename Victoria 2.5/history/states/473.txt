@@ -1,0 +1,36 @@
+
+state={
+	id=473
+	name="STATE_473"
+	resources={
+		aluminium=10.000
+		steel=14.000
+	}
+
+	history={
+		owner = X73
+		victory_points = {
+			819 9 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 2
+			819 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = ITA
+		add_core_of = X73
+	}
+
+	provinces={
+		819 851 923 955 3901 3958 3968 6972 9826 9856 9990 10027 12066 12098 
+	}
+	manpower=3837432
+	buildings_max_level_factor=1.000
+	state_category=city
+}

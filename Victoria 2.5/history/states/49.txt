@@ -1,0 +1,32 @@
+
+state={
+	id=49
+	name="STATE_49"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = BEL
+		victory_points = {
+			9536 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = BEL
+		add_core_of = HOL
+		add_core_of = WLL
+	}
+
+	provinces={
+		3488 3516 3576 6537 9418 9444 9536 11407 11519 13081 
+	}
+	manpower=1647184
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=587
+	name="STATE_587"
+	resources={
+		chromium=0.000
+		steel=2.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = X85
+		victory_points = {
+			9497 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		
+		add_core_of = X85
+	}
+
+	provinces={
+		9497 
+	}
+	manpower=365400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

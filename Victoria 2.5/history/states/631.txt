@@ -1,0 +1,33 @@
+
+state={
+	id=631
+	name="STATE_631"
+	resources={
+		aluminium=1.000
+		rubber=0.000
+		steel=4.000
+	}
+	impassable = no
+
+	history={
+	owner = UNC
+		add_core_of = UNC
+		victory_points = {
+			1962 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1897 1962 7943 8035 10771 10779 10838 
+	}
+	manpower=56400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

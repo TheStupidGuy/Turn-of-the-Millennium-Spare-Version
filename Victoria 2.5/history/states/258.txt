@@ -1,0 +1,33 @@
+
+state={
+	id=258
+	name="STATE_258"
+	resources={
+		aluminium=1.000
+		chromium=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X31
+		victory_points = {
+			7430 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = RAJ
+		add_core_of = X31
+	}
+
+	provinces={
+		7430 10030 12781 
+	}
+	manpower=1268052
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

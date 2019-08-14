@@ -1,0 +1,33 @@
+
+state={
+	id=93
+	name="STATE_93"
+	resources={
+		aluminium=17.000
+		steel=16.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			10076 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+
+		}
+		add_core_of = CHI
+		add_core_of = X77
+	}
+
+	provinces={
+		996 1089 4091 7014 10034 10076 11928 11982 12052 12076 
+	}
+	manpower=25571008
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

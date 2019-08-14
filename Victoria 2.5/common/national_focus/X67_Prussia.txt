@@ -1,0 +1,194 @@
+focus_tree = { 
+id = Prussia
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = X67 
+} 
+} 
+#Focus for Expansion of the Zollverein
+focus = { 
+id = X67_expansionofthezollverein
+icon = GFX_focus_usa_reestablish_the_gold_standard
+x = 1
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = X67_armywithastate } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+create_faction= zollverein
+ } 
+
+ } 
+
+#Focus for Defend the Heimat
+focus = { 
+id = X67_defendtheheimat
+icon = GFX_goal_generic_small_arms
+x = 5
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = X67_prussianpolitics } 
+mutually_exclusive = { focus = X67_armywithastate } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas= X67_defend
+ } 
+
+ } 
+
+#Focus for Prussian Politics
+focus = { 
+id = X67_prussianpolitics
+icon = GFX_goal_generic_territory_or_war
+x = 3
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power= 120
+ } 
+
+ } 
+
+#Focus for Army with a State
+focus = { 
+id = X67_armywithastate
+icon = GFX_goal_generic_political_pressure
+x = 1
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = X67_prussianpolitics } 
+mutually_exclusive = { focus = X67_defendtheheimat } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_ideas= X67_army
+ } 
+
+ } 
+
+#Focus for Invite North German States
+focus = { 
+id = X67_invitenorthgermanstates
+icon = GFX_goal_generic_national_unity
+x = 1
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = X67_expansionofthezollverein } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+country_event= {
+days = 1 
+id = prussia.1 
+}
+ } 
+
+ } 
+
+#Focus for Support The Krupp Family
+focus = { 
+id = X67_supportthekruppfamily
+icon = GFX_goal_tfv_generic_tech_sharing
+x = 10
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = X67_encouragetheruhrboom } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power= 50
+add_research_slot= 1
+ } 
+
+ } 
+
+#Focus for Friedrich Krupp Germaniawerft
+focus = { 
+id = X67_friedrichkruppgermaniawerft
+icon = GFX_goal_generic_navy_battleship
+x = 10
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = X67_supportthekruppfamily } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = {
+random_owned_state = {
+add_building_construction= { 
+type = naval_base
+level = 10 
+instant_build = yes
+limit_to_naval_base = yes
+}
+} 
+ } 
+
+ } 
+
+#Focus for Encourage The Ruhr Boom
+focus = { 
+id = X67_encouragetheruhrboom
+icon = GFX_goal_generic_production2
+x = 10
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ }
+available = {
+395 = {
+	owner = X67
+	}
+394 = {
+	owner = X67
+	}
+393 = {
+	owner = X67
+	}    
+    } 
+completion_reward = { 
+395 = {
+set_building_level = {
+    type = infrastructure
+    level = 10
+    instant_build = yes
+}}
+394 = {
+set_building_level = {
+    type = infrastructure
+    level = 10
+    instant_build = yes
+}}
+393 = {
+set_building_level = {
+    type = infrastructure
+    level = 10
+    instant_build = yes
+}}
+ } 
+
+ } 
+
+#End of focuses 
+ }

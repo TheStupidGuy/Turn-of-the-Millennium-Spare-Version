@@ -1,0 +1,28 @@
+
+state={
+	id=544
+	name="STATE_544"
+
+	history={
+		owner = X81
+		victory_points = {
+			9907 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = ITA
+		add_core_of = X81
+	}
+
+	provinces={
+		910 1616 6875 9750 9879 9907 11833 11889 
+	}
+	manpower=1712576
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

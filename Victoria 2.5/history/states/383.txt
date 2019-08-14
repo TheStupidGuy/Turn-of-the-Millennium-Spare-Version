@@ -1,0 +1,29 @@
+
+state={
+	id=383
+	name="STATE_383"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			13015 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		8219 8248 13015 
+	}
+	manpower=357160
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

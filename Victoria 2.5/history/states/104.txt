@@ -1,0 +1,32 @@
+
+state={
+	id=104
+	name="STATE_104"
+	resources={
+		oil=19.000
+		steel=2.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			12845 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = COL
+		add_core_of = U77
+	}
+
+	provinces={
+		1937 2023 2085 4969 8056 10494 10864 12703 12790 12845 
+	}
+	manpower=537800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

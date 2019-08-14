@@ -1,0 +1,33 @@
+
+state={
+	id=300
+	name="STATE_300"
+	resources={
+		chromium=1.000
+		steel=3.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X50
+		victory_points = {
+			482 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		
+		add_core_of = X50
+	}
+
+	provinces={
+		482 
+	}
+	manpower=208400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

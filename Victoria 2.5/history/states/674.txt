@@ -1,0 +1,30 @@
+
+state={
+	id=674
+	name="STATE_674"
+	resources={
+		steel=5.000
+	}
+
+	history={
+	owner = UNC
+		add_core_of = UNC
+		victory_points = {
+			2126 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1552 2126 4735 5158 7548 8054 12981 
+	}
+	manpower=580800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

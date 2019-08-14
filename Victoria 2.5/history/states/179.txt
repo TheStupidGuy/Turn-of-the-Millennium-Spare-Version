@@ -1,0 +1,32 @@
+
+state={
+	id=179
+	name="STATE_179"
+	resources={
+		chromium=3.000
+		tungsten=17.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			10190 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = RAJ
+		add_core_of = X54
+	}
+
+	provinces={
+		7244 7395 10190 
+	}
+	manpower=1136000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

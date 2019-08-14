@@ -1,0 +1,28 @@
+
+state={
+	id=389
+	name="STATE_389"
+
+	history={
+		owner = PAR
+		victory_points = {
+			8224 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BRA
+		add_core_of = PAR
+	}
+
+	provinces={
+		8224 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

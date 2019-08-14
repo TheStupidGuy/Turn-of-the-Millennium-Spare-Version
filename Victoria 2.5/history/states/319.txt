@@ -1,0 +1,31 @@
+
+state={
+	id=319
+	name="STATE_319"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = X52
+		victory_points = {
+			3976 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = ITA
+		add_core_of = X52
+	}
+
+	provinces={
+		3976 6973 
+	}
+	manpower=648400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

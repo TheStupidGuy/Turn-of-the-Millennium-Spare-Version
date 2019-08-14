@@ -1,0 +1,29 @@
+#### Prussian Ideas ####
+ideas = {
+##############
+# Country ideas
+##############
+
+	country = {
+
+		X67_army = {
+			modifier = {
+				enemy_partisan_effect = -0.1
+				conscription = 0.025
+			}
+		}
+		X67_defend = {
+			modifier = {
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+				production_speed_anti_air_building_factor = 0.2
+				production_speed_arms_factory_factor = 0.2
+			}
+		}
+		X67_zollverein_bonus = {
+			modifier = {
+				production_speed_industrial_complex_factor = 0.2
+			}
+		}
+	}
+}

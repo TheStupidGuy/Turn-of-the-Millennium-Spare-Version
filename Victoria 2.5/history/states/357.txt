@@ -1,0 +1,31 @@
+
+state={
+	id=357
+	name="STATE_357"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = VAT
+		victory_points = {
+			6606 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ITA
+		add_core_of = VAT
+	}
+
+	provinces={
+		782 6606 6793 6985 9924 11734 
+	}
+	manpower=843600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

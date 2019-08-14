@@ -1,0 +1,29 @@
+
+state={
+	id=345
+	name="STATE_345"
+	resources={
+		aluminium=84.000
+	}
+
+	history={
+		owner = HOL
+		victory_points = {
+			12828 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1928 10906 12828 
+	}
+	manpower=56440
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

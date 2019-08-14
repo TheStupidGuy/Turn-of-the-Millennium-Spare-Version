@@ -1,0 +1,31 @@
+
+state={
+	id=602
+	name="STATE_602"
+	resources={
+		oil=9.000
+		tungsten=19.000
+	}
+
+	history={
+	owner = UNC
+		add_core_of = UNC
+		victory_points = {
+			917 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		917 1323 1411 1737 4343 4678 4870 7677 7753 7761 7853 10644 
+	}
+	manpower=19600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=314
+	name="STATE_314"
+
+	history={
+		owner = MEX
+		victory_points = {
+			12753 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = MEX
+	}
+
+	provinces={
+		1900 2021 4904 4965 12715 12753 12867 
+	}
+	manpower=627440
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

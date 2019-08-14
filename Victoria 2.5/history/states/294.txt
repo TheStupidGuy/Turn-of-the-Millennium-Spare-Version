@@ -1,0 +1,30 @@
+
+state={
+	id=294
+	name="STATE_294"
+	resources={
+		chromium=7.000
+	}
+
+	history={
+		owner = MAD
+		victory_points = {
+			5128 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = MAD
+	}
+
+	provinces={
+		5128 5222 8188 10993 
+	}
+	manpower=1080100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

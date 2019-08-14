@@ -1,0 +1,76 @@
+scripted_gui = {
+   colony_mana_button = {
+       window_name = "colony_mana_button_container"
+ 
+       context_type = selected_state_context
+ 
+       visible = {
+		is_controlled_by = UNC
+        OR = {
+		is_coastal = yes
+		any_neighbor_state = { is_controlled_by = ROOT }
+		}		
+		}
+ 
+        effects = {
+			colony_mana_button_click = {
+			set_state_flag = colonizing
+			every_country = {
+			limit = {
+				OR = {
+					tag = UNC
+				}
+			}
+		every_state = {
+			limit = {
+
+				has_state_flag = colonizing
+
+			}
+			ROOT = {
+				transfer_state = PREV
+				add_political_power = -200
+			}
+			remove_core_of = UNC
+			remove_state_flag = colonizing
+
+		}
+		}
+			
+			}
+		}
+        triggers = {
+            colony_mana_button_click_enabled = {
+                check_variable = { ROOT.political_power > 249.99 }
+				OR = {
+				UNC = {is_neighbor_of = ROOT}
+				any_state = {
+				is_controlled_by = UNC
+				is_coastal = yes
+				}
+				}
+            }
+        }
+		ai_test_interval = 24
+		ai_test_variance = 0.1
+		ai_max_weight_taken_per_test = 2
+		ai_test_scopes = test_neighbouring_states
+	   ai_test_scopes = test_if_only_coastal
+		
+		ai_enabled = {
+            always = yes
+		}
+		ai_check = {
+			check_variable = { ROOT.political_power > 249.99 }
+			check_variable = { ai_random > 0.65 }
+		}
+		ai_weights = {
+			colony_mana_button_click = {
+			    weight = 1.0
+				ai_will_do = {
+					factor = 1
+				}
+			}
+		}
+   }
+}

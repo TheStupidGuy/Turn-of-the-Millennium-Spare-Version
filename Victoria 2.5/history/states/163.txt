@@ -1,0 +1,33 @@
+
+state={
+	id=163
+	name="STATE_163"
+	resources={
+		steel=11.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			3369 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			540 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		540 3369 3422 3463 6351 6378 6526 9484 9562 11406 
+	}
+	manpower=2106480
+	buildings_max_level_factor=1.000
+	state_category=town
+}

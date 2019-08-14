@@ -1,0 +1,30 @@
+
+state={
+	id=281
+	name="STATE_281"
+	resources={
+		chromium=8.000
+	}
+
+	history={
+		owner = KYR
+		victory_points = {
+			10417 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = KYR
+	}
+
+	provinces={
+		1216 1919 8027 10187 10417 12430 12805 
+	}
+	manpower=291996
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

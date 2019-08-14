@@ -1,0 +1,31 @@
+
+state={
+	id=250
+	name="STATE_250"
+	resources={
+		oil=0.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			6377 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		
+		add_core_of = X25
+	}
+
+	provinces={
+		247 3234 3395 6377 9281 11233 11264 11360 11388 
+	}
+	manpower=1070328
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
