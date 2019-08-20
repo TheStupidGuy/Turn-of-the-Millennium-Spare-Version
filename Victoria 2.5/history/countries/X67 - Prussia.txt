@@ -128,14 +128,13 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-    name = "Absolutist Government"
-    desc = "POLITICS_ABSOLUTIST_DESC"
-    picture = "gfx/leaders/DF/absolutist.tga"
-    expire = "1965.1.1"
-    ideology = absolute_monarchy
-    traits = {
-    }
-}
+   name = "Frederick William III of Prussia"
+   desc = "POLITICS_FRIEDRICH_WILHELM_IV_DESC"
+   picture = "Portrait_PRU_Fredrick_William III.dds"
+   expire = "1840.7.5"
+   ideology = absolute_monarchy
+   traits = {dislikes_france }
+
 create_country_leader = {
     name = "Communist Government"
     desc = "POLITICS_COMMUNISM_DESC"
