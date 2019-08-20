@@ -1,7 +1,0 @@
-create_country_leader = {
-  	name = "Frederick William III of Prussia"
-  	desc = "POLITICS_FRIEDRICH_WILHELM_IV_DESC"
-  	picture = "Portrait_PRU_Fredrick_William III.dds"
-  	expire = "1840.7.5"
-  	ideology = authoritarian 
-  	traits = {dislikes_france }
