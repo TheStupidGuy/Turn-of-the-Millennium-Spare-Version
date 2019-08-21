@@ -131,10 +131,10 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-    name = "Absolutist Government"
+    name = "Nicholas I of Russia"
     desc = "POLITICS_ABSOLUTIST_DESC"
-    picture = "gfx/leaders/DF/absolutist.tga"
-    expire = "1965.1.1"
+    picture = portrait_RUS_Nicholas I.dds
+    expire = "1855.1.1"
     ideology = absolute_monarchy
     traits = {
     }
