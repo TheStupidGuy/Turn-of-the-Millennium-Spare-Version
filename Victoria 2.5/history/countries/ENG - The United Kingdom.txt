@@ -393,10 +393,10 @@ create_country_leader = {
     }
 }
 create_country_leader = { 
- name = "Parliamentary Government" 
+ name = "William IV of the United Kingdom" 
  desc = "POLITICS_PARLIAMENTARY_DESC" 
- picture = "gfx/leaders/DF/parliamentary.tga" 
- expire = "1965.1.1" 
+ picture = politics_ENG_William IV.dds
+ expire = "1837.1.1" 
  ideology = parliamentary_ideology
  traits = { } 
  }
