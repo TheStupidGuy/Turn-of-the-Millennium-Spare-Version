@@ -131,13 +131,12 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-    name = "Absolutist Government"
+    name = "Ferdinand I of Austria"
     desc = "POLITICS_ABSOLUTIST_DESC"
-    picture = "gfx/leaders/DF/absolutist.tga"
+    picture = portrait_AUS_Ferdinand I.dds
     expire = "1965.1.1"
     ideology = absolute_monarchy
     traits = {
-    }
 }
 create_country_leader = {
     name = "Communist Government"
