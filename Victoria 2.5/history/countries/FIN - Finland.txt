@@ -242,9 +242,9 @@ if = {
 }
 
  create_country_leader = { 
- name = "Louis Philippe I" 
+ name = "Parlimentary Government" 
  desc = "POLITICS_PARLIAMENTARY_DESC" 
- picture = "portrait_FRA_Louis Philippe I" 
+ picture = "gfx/leaders/DF/parlimentary.tga" 
  expire = "1849.1.1" 
  ideology = parliamentary_ideology  
  traits = { } 
