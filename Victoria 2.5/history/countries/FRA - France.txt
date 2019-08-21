@@ -254,10 +254,10 @@ create_country_leader = {
     }
 }
  create_country_leader = { 
- name = "Parliamentary Government" 
+ name = "Louis Philippe I" 
  desc = "POLITICS_PARLIAMENTARY_DESC" 
- picture = "gfx/leaders/DF/parliamentary.tga" 
- expire = "1965.1.1" 
+ picture = portrait_FRA_Louis_Philippe I.dds
+ expire = "1848.1.1" 
  ideology = parliamentary_ideology
  traits = { } 
  }
