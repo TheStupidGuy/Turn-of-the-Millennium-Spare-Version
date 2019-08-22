@@ -229,9 +229,9 @@ create_country_leader = {
     }
 }
 create_country_leader = {
-    name = "Andrew Johnson"
+    name = "Andrew Jackson"
     desc = "POLITICS_DEMOCRATIC_DESC"
-    picture = "gfx/leaders/OC/portrait_USA_Andrew_Johnson.dds"
+    picture = "gfx/leaders/OC/portrait_USA_Andrew_Jackson.dds"
     expire = "1837.1.1"
     ideology = conservatism
     traits = {
