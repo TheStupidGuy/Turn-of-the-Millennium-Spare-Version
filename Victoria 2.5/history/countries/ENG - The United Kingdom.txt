@@ -181,8 +181,8 @@ if = {
 
 set_politics = {
     ruling_party = parliamentary
-    last_election = "1836.1.1"
-    election_frequency = 48
+    last_election = "1835.2.6"
+    election_frequency = 24
     elections_allowed = yes
 }
 
@@ -330,75 +330,75 @@ add_ideas = {
 set_stability = 0.60
 set_war_support = 0.60
 create_country_leader = {
-    name = "Absolutist Government"
+    name = "King Edward IV"
     desc = "POLITICS_ABSOLUTIST_DESC"
-    picture = "gfx/leaders/DF/absolutist.tga"
+    picture = "gfx/leaders/OC/portrait_ENG_William IV.dds"
     expire = "1965.1.1"
     ideology = absolute_monarchy
     traits = {
     }
 }
 create_country_leader = {
-    name = "Communist Government"
+    name = "Autonomous Communes"
     desc = "POLITICS_COMMUNISM_DESC"
-    picture = "gfx/leaders/DF/communism.tga"
+    picture = "Portrait_Britain_National_Community.dds"
     expire = "1965.1.1"
-    ideology = marxism
+    ideology = agrarian_socialism
     traits = {
     }
 }
 create_country_leader = {
-    name = "Democratic Government"
+    name = "Charles Bradlaugh"
     desc = "POLITICS_DEMOCRATIC_DESC"
-    picture = "gfx/leaders/DF/democratic.tga"
+    picture = "Portrait_Britain_Charles_Bradlaugh.dds"
     expire = "1965.1.1"
     ideology = conservatism
     traits = {
     }
 }
 create_country_leader = {
-    name = "Fascist Government"
+    name = "Thomas Cromwell"
     desc = "POLITICS_FASCISM_DESC"
-    picture = "gfx/leaders/DF/fascism.tga"
+    picture = "Portrait_Britain_Thomas_Cromwell.dds"
     expire = "1965.1.1"
     ideology = fascism_ideology
     traits = {
     }
 }
 create_country_leader = {
-    name = "Radical Government"
+    name = "Police State"
     desc = "POLITICS_RADICAL_DESC"
-    picture = "gfx/leaders/DF/radical.tga"
+    picture = "Portrait_Britain_Police.dds"
     expire = "1965.1.1"
     ideology = minarchism
     traits = {
     }
 }
 create_country_leader = {
-    name = "Dictatorial Government"
-    desc = "POLITICS_DICTATORSHIP_DESC"
-    picture = "gfx/leaders/DF/dictatorship.tga"
-    expire = "1965.1.1"
+    name = "Alfred Jones"
+    desc = "totally real dictator"
+    picture = "Portrait_Britain_Alfred_Jones.dds"
+    expire = "1871.2.4"
     ideology = dictatorship_ideology
     traits = {
     }
 }
 create_country_leader = {
-    name = "Theocratic Government"
+    name = "Council of the Fifth Monarchists"
     desc = "POLITICS_THEOCRACY_DESC"
-    picture = "gfx/leaders/DF/theocracy.tga"
-    expire = "1965.1.1"
+    picture = "Portrait_Britain_God.dds"
+    expire = "6666"
     ideology = theocracy_ideology
     traits = {
     }
 }
 create_country_leader = { 
- name = "William IV of the United Kingdom" 
- desc = "POLITICS_PARLIAMENTARY_DESC" 
- picture = "gfx/leaders/OC/portrait_ENG_William IV.dds"
- expire = "1837.1.1" 
- ideology = parliamentary_ideology
- traits = { } 
+	name = "Viscount Melbourne" 
+	desc = "POLITICS_PARLIAMENTARY_DESC" 
+	picture = "Portrait_Britain_Viscount_Melbourne.dds"
+	expire = "1848.1.1" 
+	ideology = liberal_ideology
+	traits = { } 
  }
 create_corps_commander = {
 	name = "Hugh Gough"

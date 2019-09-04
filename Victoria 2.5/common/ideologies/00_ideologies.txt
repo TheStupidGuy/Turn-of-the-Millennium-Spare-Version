@@ -138,6 +138,9 @@ ideologies = {
 		
 			anarchist_communism = {
 			}
+		
+			agrarian_socialism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -232,6 +235,12 @@ parliamentary = {
 		types = {
 			
 			parliamentary_ideology = {
+			}
+			
+			conservative_ideology = {
+			}
+			
+			liberal_ideology = {
 			}
 		}
 		

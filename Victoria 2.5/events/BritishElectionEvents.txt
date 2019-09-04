@@ -1,0 +1,171 @@
+﻿###########################
+# Election Events
+###########################
+
+add_namespace = british_election
+
+# Test Election Event
+country_event = {
+	id = british_election.1
+	title = "1837 Election in the United Kingdom"
+	desc = "An election is being held in the United Kingdom. Who shall win?"
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1837.2.6
+		tag = ENG
+		has_government = parliamentary
+	}
+	
+	option = {
+		name = "Elect the Whigs (Historical)"
+		set_party_name = { 
+			ideology = parliamentary 
+			long_name = "Whig Party (Last Elected Party)" 
+			name = "Whig Party"
+		}
+		retire_country_leader = yes
+		
+		create_country_leader = { 
+			name = "Viscount Melbourne" 
+			desc = "POLITICS_PARLIAMENTARY_DESC" 
+			picture = "Portrait_Britain_Viscount_Melbourne.dds"
+			expire = "1848.1.1" 
+			ideology = liberal_ideology
+			traits = { } 
+		}
+	}
+	
+	option = {
+		name = "Elect the Tories"
+		set_party_name = { 
+			ideology = parliamentary 
+			long_name = "Conservative Party (Last Elected Party)" 
+			name = "Conservative Party"
+		}
+		retire_country_leader = yes
+		
+		create_country_leader = { 
+			name = "Robert Peel" 
+			desc = "POLITICS_PARLIAMENTARY_DESC" 
+			picture = "Portrait_Britain_Robert_Peel.dds"
+			expire = "1908.1.1" 
+			ideology = conservative_ideology
+			traits = { } 
+		}
+	}
+}
+
+country_event = {
+	id = british_election.2
+	title = "1841 Election in the United Kingdom"
+	desc = "An election is being held in the United Kingdom. Who shall win?"
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1841.2.6
+		tag = ENG
+		has_government = parliamentary
+	}
+	
+	option = {
+		name = "Elect the Whigs"
+		set_party_name = { 
+			ideology = parliamentary 
+			long_name = "Whig Party (Last Elected Party)" 
+			name = "Whig Party"
+		}
+		retire_country_leader = yes
+		
+		create_country_leader = { 
+			name = "Viscount Melbourne" 
+			desc = "POLITICS_PARLIAMENTARY_DESC" 
+			picture = "Portrait_Britain_Viscount_Melbourne.dds"
+			expire = "1848.1.1" 
+			ideology = liberal_ideology
+			traits = { } 
+		}
+	}
+	
+	option = {
+		name = "Elect the Tories (Historical)"
+		set_party_name = { 
+			ideology = parliamentary 
+			long_name = "Conservative Party (Last Elected Party)" 
+			name = "Conservative Party"
+		}
+		retire_country_leader = yes
+		
+		create_country_leader = { 
+			name = "Robert Peel" 
+			desc = "POLITICS_PARLIAMENTARY_DESC" 
+			picture = "Portrait_Britain_Robert_Peel.dds"
+			expire = "1908.1.1" 
+			ideology = conservative_ideology
+			traits = { } 
+		}
+	}
+}
+
+country_event = {
+	id = british_election.3
+	title = "1847 Election in the United Kingdom"
+	desc = "An election is being held in the United Kingdom. Who shall win?"
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1847.2.6
+		tag = ENG
+		has_government = parliamentary
+	}
+	
+	option = {
+		name = "Elect the Whigs"
+		set_party_name = { 
+			ideology = parliamentary 
+			long_name = "Whig Party (Last Elected Party)" 
+			name = "Whig Party"
+		}
+		retire_country_leader = yes
+		
+		create_country_leader = { 
+			name = "John Russel" 
+			desc = "POLITICS_PARLIAMENTARY_DESC" 
+			picture = ""
+			expire = "1848.1.1" 
+			ideology = liberal_ideology
+			traits = { } 
+		}
+	}
+	
+	option = {
+		name = "Elect the Tories (Historical)"
+		set_party_name = { 
+			ideology = parliamentary 
+			long_name = "Conservative Party (Last Elected Party)" 
+			name = "Conservative Party"
+		}
+		retire_country_leader = yes
+		
+		create_country_leader = { 
+			name = "Edward Stanley" 
+			desc = "POLITICS_PARLIAMENTARY_DESC" 
+			picture = ""
+			expire = "1908.1.1" 
+			ideology = conservative_ideology
+			traits = { } 
+		}
+	}
+}
