@@ -1,4 +1,5 @@
-﻿capital = 46
+﻿set_country_flag = south_german
+capital = 46
 set_research_slots = 3
 
 oob = "X06_OOB"

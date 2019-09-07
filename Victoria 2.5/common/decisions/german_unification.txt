@@ -1,0 +1,160 @@
+german_unification = {
+	form_north_germany = {
+
+		icon = generic_army_support
+
+		allowed = {
+		}
+		
+		available = {
+			owns_state = 401
+			owns_state = 400
+			owns_state = 399
+			owns_state = 397
+			owns_state = 390
+			owns_state = 391
+			owns_state = 299
+			owns_state = 464
+			owns_state = 7
+			owns_state = 257
+			owns_state = 291
+			owns_state = 587
+			owns_state = 300
+			owns_state = 108
+			owns_state = 254
+			owns_state = 255
+			owns_state = 236
+			owns_state = 256
+			owns_state = 45
+			owns_state = 393
+			owns_state = 394
+			owns_state = 395
+			owns_state = 329
+			owns_state = 392
+			owns_state = 250
+			owns_state = 346
+			owns_state = 62
+			owns_state = 249
+			owns_state = 248
+			owns_state = 251
+			owns_state = 61
+			owns_state = 289
+			owns_state = 398
+
+		}
+		
+		visible = {
+			has_country_flag = north_german
+		}
+		
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_cosmetic_tag = GER_N
+		}
+	}
+	
+	form_south_germany = {
+
+		icon = generic_army_support
+
+		allowed = {
+		}
+		
+		available = {
+			owns_state = 47
+			owns_state = 46
+			owns_state = 588
+			owns_state = 42
+			owns_state = 396
+			owns_state = 19
+			owns_state = 20
+			owns_state = 21
+
+		}
+		
+		visible = {
+			has_country_flag = south_german
+		}
+		
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_cosmetic_tag = GER_S
+		}
+	}
+	
+	form_germany = {
+
+		icon = generic_army_support
+
+		allowed = {
+		}
+		
+		available = {
+			owns_state = 47
+			owns_state = 46
+			owns_state = 588
+			owns_state = 42
+			owns_state = 396
+			owns_state = 401
+			owns_state = 400
+			owns_state = 399
+			owns_state = 397
+			owns_state = 390
+			owns_state = 391
+			owns_state = 299
+			owns_state = 464
+			owns_state = 7
+			owns_state = 257
+			owns_state = 291
+			owns_state = 587
+			owns_state = 300
+			owns_state = 108
+			owns_state = 254
+			owns_state = 255
+			owns_state = 236
+			owns_state = 256
+			owns_state = 45
+			owns_state = 393
+			owns_state = 394
+			owns_state = 395
+			owns_state = 329
+			owns_state = 392
+			owns_state = 250
+			owns_state = 346
+			owns_state = 62
+			owns_state = 249
+			owns_state = 248
+			owns_state = 251
+			owns_state = 61
+			owns_state = 289
+			owns_state = 398
+			owns_state = 213
+
+		}
+		
+		visible = {
+			OR = {
+				has_country_flag = south_german
+				has_country_flag = north_german
+			}
+		}
+		
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 1
+		}
+		complete_effect = {
+			set_cosmetic_tag = GER_U
+			set_country_flag = germany
+		}
+	}
+}	

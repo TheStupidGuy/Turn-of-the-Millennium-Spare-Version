@@ -73,7 +73,4 @@
  ban_radical_party:0 "Ban Radical"
  ban_radical_party_desc:0 "In the current situation, allowing radical parties to continue to organize would undermine our ability to govern effectively. Drastic measures will need to be taken."
  ban_radical_party_tt:1 "Change in popularity of Radical: §G-§![?.Root.party_popularity@radical|%0G].\n"
- form_germany_category:0 "Form Germany"
- form_germany:0 "Form Germany"
- form_germany_desc:0 "Form Germany"
  
