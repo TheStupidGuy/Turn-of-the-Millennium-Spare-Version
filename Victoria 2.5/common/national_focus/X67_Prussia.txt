@@ -1,10 +1,10 @@
 focus_tree = { 
-id = X67
+id = Prussia
 country = { 
 factor = 0 
 modifier = { 
 add = 10 
-tag = Prussia 
+tag = X67
 } 
 } 
 #Focus for Kriegsspiel
