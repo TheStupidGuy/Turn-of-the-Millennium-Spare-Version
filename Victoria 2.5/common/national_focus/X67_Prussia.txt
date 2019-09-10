@@ -4,21 +4,21 @@ country = {
 factor = 0 
 modifier = { 
 add = 10 
-tag = X67
+tag = X67 
 } 
 } 
 #Focus for Kriegsspiel
 focus = { 
-id = Prussia_kriegsspiel
+id = X67_kriegsspiel
 icon = GFX_goal_unknown
 x = 35
 y = 9
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_militarytheory } 
-mutually_exclusive = { focus = Prussia_armymobility } 
-mutually_exclusive = { focus = Prussia_waveattack } 
-mutually_exclusive = { focus = Prussia_ } 
+prerequisite = { focus = X67_militarytheory } 
+mutually_exclusive = { focus = X67_armymobility } 
+mutually_exclusive = { focus = X67_waveattack } 
+mutually_exclusive = { focus = X67_ } 
 ai_will_do = { 
  factor = 1
  } 
@@ -27,13 +27,13 @@ ai_will_do = {
 
 #Focus for Integrate Polish Militia
 focus = { 
-id = Prussia_integratepolishmilitia
+id = X67_integratepolishmilitia
 icon = GFX_goal_unknown
 x = 33
 y = 5
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_reformstothecabinet focus = Prussia_powertothegenerals } 
+prerequisite = { focus = X67_reformstothecabinet focus = X67_powertothegenerals } 
 ai_will_do = { 
  factor = 1
  } 
@@ -42,13 +42,13 @@ ai_will_do = {
 
 #Focus for Reforms to the Cabinet
 focus = { 
-id = Prussia_reformstothecabinet
+id = X67_reformstothecabinet
 icon = GFX_goal_unknown
 x = 31
 y = 4
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_powertotheking } 
+prerequisite = { focus = X67_powertotheking } 
 ai_will_do = { 
  factor = 1
  } 
@@ -57,14 +57,14 @@ ai_will_do = {
 
 #Focus for Power to the Generals
 focus = { 
-id = Prussia_powertothegenerals
+id = X67_powertothegenerals
 icon = GFX_goal_unknown
 x = 37
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_kniglichpreuischearmee } 
-mutually_exclusive = { focus = Prussia_powertotheking } 
+prerequisite = { focus = X67_kniglichpreuischearmee } 
+mutually_exclusive = { focus = X67_powertotheking } 
 ai_will_do = { 
  factor = 1
  } 
@@ -73,13 +73,13 @@ ai_will_do = {
 
 #Focus for Königlich Preußische Armee
 focus = { 
-id = Prussia_kniglichpreuischearmee
+id = X67_kniglichpreuischearmee
 icon = GFX_goal_unknown
 x = 34
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_prussiaarmy } 
+prerequisite = { focus = X67_prussiaarmy } 
 ai_will_do = { 
  factor = 1
  } 
@@ -88,13 +88,13 @@ ai_will_do = {
 
 #Focus for Prussian Naval Academies
 focus = { 
-id = Prussia_prussiannavalacademies
+id = X67_prussiannavalacademies
 icon = GFX_goal_unknown
 x = 23
 y = 5
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_improvednapoleonicnavalequipment } 
+prerequisite = { focus = X67_improvednapoleonicnavalequipment } 
 ai_will_do = { 
  factor = 1
  } 
@@ -103,13 +103,13 @@ ai_will_do = {
 
 #Focus for Preußische Marine
 focus = { 
-id = Prussia_preuischemarine
+id = X67_preuischemarine
 icon = GFX_goal_unknown
 x = 22
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_prussiaarmy } 
+prerequisite = { focus = X67_prussiaarmy } 
 ai_will_do = { 
  factor = 1
  } 
@@ -118,13 +118,13 @@ ai_will_do = {
 
 #Focus for Maritime Expeditions
 focus = { 
-id = Prussia_maritimeexpeditions
+id = X67_maritimeexpeditions
 icon = GFX_goal_unknown
 x = 19
 y = 5
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_improvednapoleonicnavalequipment } 
+prerequisite = { focus = X67_improvednapoleonicnavalequipment } 
 ai_will_do = { 
  factor = 1
  } 
@@ -133,13 +133,13 @@ ai_will_do = {
 
 #Focus for Oberkommando der Marine
 focus = { 
-id = Prussia_oberkommandodermarine
+id = X67_oberkommandodermarine
 icon = GFX_goal_unknown
 x = 27
 y = 5
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_improvednapoleonicnavalequipment } 
+prerequisite = { focus = X67_improvednapoleonicnavalequipment } 
 ai_will_do = { 
  factor = 1
  } 
@@ -148,14 +148,14 @@ ai_will_do = {
 
 #Focus for Power to the King
 focus = { 
-id = Prussia_powertotheking
+id = X67_powertotheking
 icon = GFX_goal_unknown
 x = 31
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_kniglichpreuischearmee } 
-mutually_exclusive = { focus = Prussia_powertothegenerals } 
+prerequisite = { focus = X67_kniglichpreuischearmee } 
+mutually_exclusive = { focus = X67_powertothegenerals } 
 ai_will_do = { 
  factor = 1
  } 
@@ -164,7 +164,7 @@ ai_will_do = {
 
 #Focus for Prussia Army
 focus = { 
-id = Prussia_prussiaarmy
+id = X67_prussiaarmy
 icon = GFX_goal_unknown
 x = 27
 y = 1
@@ -178,13 +178,13 @@ ai_will_do = {
 
 #Focus for Improved Napoleonic Naval Equipment
 focus = { 
-id = Prussia_improvednapoleonicnavalequipment
+id = X67_improvednapoleonicnavalequipment
 icon = GFX_goal_unknown
 x = 22
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_preuischemarine } 
+prerequisite = { focus = X67_preuischemarine } 
 ai_will_do = { 
  factor = 1
  } 
@@ -193,15 +193,15 @@ ai_will_do = {
 
 #Focus for Karl Rudolf Brommy
 focus = { 
-id = Prussia_karlrudolfbrommy
+id = X67_karlrudolfbrommy
 icon = GFX_goal_unknown
 x = 22
 y = 7
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_maritimeexpeditions } 
-prerequisite = { focus = Prussia_prussiannavalacademies } 
-prerequisite = { focus = Prussia_oberkommandodermarine } 
+prerequisite = { focus = X67_maritimeexpeditions } 
+prerequisite = { focus = X67_prussiannavalacademies } 
+prerequisite = { focus = X67_oberkommandodermarine } 
 ai_will_do = { 
  factor = 1
  } 
@@ -210,15 +210,15 @@ ai_will_do = {
 
 #Focus for Ludwig von Henk
 focus = { 
-id = Prussia_ludwigvonhenk
+id = X67_ludwigvonhenk
 icon = GFX_goal_unknown
 x = 25
 y = 7
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_maritimeexpeditions } 
-prerequisite = { focus = Prussia_prussiannavalacademies } 
-prerequisite = { focus = Prussia_oberkommandodermarine } 
+prerequisite = { focus = X67_maritimeexpeditions } 
+prerequisite = { focus = X67_prussiannavalacademies } 
+prerequisite = { focus = X67_oberkommandodermarine } 
 ai_will_do = { 
  factor = 1
  } 
@@ -227,13 +227,13 @@ ai_will_do = {
 
 #Focus for Secret Projects
 focus = { 
-id = Prussia_secretprojects
+id = X67_secretprojects
 icon = GFX_goal_unknown
 x = 27
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_prussiaarmy } 
+prerequisite = { focus = X67_prussiaarmy } 
 ai_will_do = { 
  factor = 1
  } 
@@ -242,15 +242,15 @@ ai_will_do = {
 
 #Focus for Military Theory
 focus = { 
-id = Prussia_militarytheory
+id = X67_militarytheory
 icon = GFX_goal_unknown
 x = 30
 y = 8
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_karlrudolfbrommy } 
-prerequisite = { focus = Prussia_ludwigvonhenk } 
-prerequisite = { focus = Prussia_militaryresearch } 
+prerequisite = { focus = X67_karlrudolfbrommy } 
+prerequisite = { focus = X67_ludwigvonhenk } 
+prerequisite = { focus = X67_militaryresearch } 
 ai_will_do = { 
  factor = 1
  } 
@@ -259,15 +259,15 @@ ai_will_do = {
 
 #Focus for Army Mobility
 focus = { 
-id = Prussia_armymobility
+id = X67_armymobility
 icon = GFX_goal_unknown
 x = 25
 y = 9
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_militarytheory } 
-mutually_exclusive = { focus = Prussia_waveattack } 
-mutually_exclusive = { focus = Prussia_kriegsspiel } 
+prerequisite = { focus = X67_militarytheory } 
+mutually_exclusive = { focus = X67_waveattack } 
+mutually_exclusive = { focus = X67_kriegsspiel } 
 ai_will_do = { 
  factor = 1
  } 
@@ -276,15 +276,15 @@ ai_will_do = {
 
 #Focus for Wave Attack
 focus = { 
-id = Prussia_waveattack
+id = X67_waveattack
 icon = GFX_goal_unknown
 x = 29
 y = 9
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_militarytheory } 
-mutually_exclusive = { focus = Prussia_armymobility } 
-mutually_exclusive = { focus = Prussia_kriegsspiel } 
+prerequisite = { focus = X67_militarytheory } 
+mutually_exclusive = { focus = X67_armymobility } 
+mutually_exclusive = { focus = X67_kriegsspiel } 
 ai_will_do = { 
  factor = 1
  } 
@@ -293,13 +293,13 @@ ai_will_do = {
 
 #Focus for Artillerie-Entwicklung
 focus = { 
-id = Prussia_artillerieentwicklung
+id = X67_artillerieentwicklung
 icon = GFX_goal_unknown
 x = 36
 y = 7
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_preuischeloyalitt } 
+prerequisite = { focus = X67_preuischeloyalitt } 
 ai_will_do = { 
  factor = 1
  } 
@@ -308,13 +308,13 @@ ai_will_do = {
 
 #Focus for Military Research
 focus = { 
-id = Prussia_militaryresearch
+id = X67_militaryresearch
 icon = GFX_goal_unknown
 x = 36
 y = 5
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_powertothegenerals focus = Prussia_reformstothecabinet } 
+prerequisite = { focus = X67_powertothegenerals focus = X67_reformstothecabinet } 
 ai_will_do = { 
  factor = 1
  } 
@@ -323,13 +323,13 @@ ai_will_do = {
 
 #Focus for Preußische Loyalität
 focus = { 
-id = Prussia_preuischeloyalitt
+id = X67_preuischeloyalitt
 icon = GFX_goal_unknown
 x = 36
 y = 6
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_integratepolishmilitia } 
+prerequisite = { focus = X67_integratepolishmilitia } 
 ai_will_do = { 
  factor = 1
  } 
@@ -338,13 +338,13 @@ ai_will_do = {
 
 #Focus for Early Ariel Prototypes
 focus = { 
-id = Prussia_earlyarielprototypes
+id = X67_earlyarielprototypes
 icon = GFX_goal_unknown
 x = 33
 y = 6
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_integratepolishmilitia } 
+prerequisite = { focus = X67_integratepolishmilitia } 
 ai_will_do = { 
  factor = 1
  } 
@@ -353,15 +353,15 @@ ai_will_do = {
 
 #Focus for Force the wealthy to pay compensation
 focus = { 
-id = Prussia_forcethewealthytopaycompensation
+id = X67_forcethewealthytopaycompensation
 icon = GFX_goal_unknown
 x = 3
 y = 6
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_inprisonunproductivepeasants } 
-prerequisite = { focus = Prussia_formthebourgeoisie } 
-mutually_exclusive = { focus = Prussia_threatenthepeasantpopulation } 
+prerequisite = { focus = X67_inprisonunproductivepeasants } 
+prerequisite = { focus = X67_formthebourgeoisie } 
+mutually_exclusive = { focus = X67_threatenthepeasantpopulation } 
 ai_will_do = { 
  factor = 1
  } 
@@ -370,7 +370,7 @@ ai_will_do = {
 
 #Focus for Preußische Wirtschaft
 focus = { 
-id = Prussia_preuischewirtschaft
+id = X67_preuischewirtschaft
 icon = GFX_goal_unknown
 x = 8
 y = 1
@@ -384,13 +384,13 @@ ai_will_do = {
 
 #Focus for New Technology
 focus = { 
-id = Prussia_newtechnology
+id = X67_newtechnology
 icon = GFX_goal_unknown
 x = 9
 y = 8
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_britishadvisors focus = Prussia_unitedstatesadvisors focus = Prussia_frenchadvisors } 
+prerequisite = { focus = X67_britishadvisors focus = X67_unitedstatesadvisors focus = X67_frenchadvisors } 
 ai_will_do = { 
  factor = 1
  } 
@@ -399,13 +399,13 @@ ai_will_do = {
 
 #Focus for Social Priority
 focus = { 
-id = Prussia_socialpriority
+id = X67_socialpriority
 icon = GFX_goal_unknown
 x = 5
 y = 8
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_frenchadvisors focus = Prussia_britishadvisors focus = Prussia_unitedstatesadvisors } 
+prerequisite = { focus = X67_frenchadvisors focus = X67_britishadvisors focus = X67_unitedstatesadvisors } 
 ai_will_do = { 
  factor = 1
  } 
@@ -414,13 +414,13 @@ ai_will_do = {
 
 #Focus for Trade Economy
 focus = { 
-id = Prussia_tradeeconomy
+id = X67_tradeeconomy
 icon = GFX_goal_unknown
 x = 1
 y = 8
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_frenchadvisors focus = Prussia_unitedstatesadvisors focus = Prussia_britishadvisors } 
+prerequisite = { focus = X67_frenchadvisors focus = X67_unitedstatesadvisors focus = X67_britishadvisors } 
 ai_will_do = { 
  factor = 1
  } 
@@ -429,13 +429,13 @@ ai_will_do = {
 
 #Focus for Invest in local industries
 focus = { 
-id = Prussia_investinlocalindustries
+id = X67_investinlocalindustries
 icon = GFX_goal_unknown
 x = 16
 y = 5
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_incentiveonlocalindustries } 
+prerequisite = { focus = X67_incentiveonlocalindustries } 
 ai_will_do = { 
  factor = 1
  } 
@@ -444,17 +444,17 @@ ai_will_do = {
 
 #Focus for Agricultural reform
 focus = { 
-id = Prussia_agriculturalreform
+id = X67_agriculturalreform
 icon = GFX_goal_unknown
 x = 11
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_zollverein } 
-prerequisite = { focus = Prussia_tarifflaws } 
-prerequisite = { focus = Prussia_education } 
-prerequisite = { focus = Prussia_learnfromfrederick } 
-prerequisite = { focus = Prussia_industrialization } 
+prerequisite = { focus = X67_zollverein } 
+prerequisite = { focus = X67_tarifflaws } 
+prerequisite = { focus = X67_education } 
+prerequisite = { focus = X67_learnfromfrederick } 
+prerequisite = { focus = X67_industrialization } 
 ai_will_do = { 
  factor = 1
  } 
@@ -463,17 +463,17 @@ ai_will_do = {
 
 #Focus for Limited Imports
 focus = { 
-id = Prussia_limitedimports
+id = X67_limitedimports
 icon = GFX_goal_unknown
 x = 16
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_zollverein } 
-prerequisite = { focus = Prussia_tarifflaws } 
-prerequisite = { focus = Prussia_education } 
-prerequisite = { focus = Prussia_learnfromfrederick } 
-prerequisite = { focus = Prussia_industrialization } 
+prerequisite = { focus = X67_zollverein } 
+prerequisite = { focus = X67_tarifflaws } 
+prerequisite = { focus = X67_education } 
+prerequisite = { focus = X67_learnfromfrederick } 
+prerequisite = { focus = X67_industrialization } 
 ai_will_do = { 
  factor = 1
  } 
@@ -482,13 +482,13 @@ ai_will_do = {
 
 #Focus for Incentive on local industries
 focus = { 
-id = Prussia_incentiveonlocalindustries
+id = X67_incentiveonlocalindustries
 icon = GFX_goal_unknown
 x = 16
 y = 4
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_limitedimports } 
+prerequisite = { focus = X67_limitedimports } 
 ai_will_do = { 
  factor = 1
  } 
@@ -497,13 +497,13 @@ ai_will_do = {
 
 #Focus for Brandenburg Industrialization
 focus = { 
-id = Prussia_brandenburgindustrialization
+id = X67_brandenburgindustrialization
 icon = GFX_goal_unknown
 x = 9
 y = 4
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_agriculturalreform } 
+prerequisite = { focus = X67_agriculturalreform } 
 ai_will_do = { 
  factor = 1
  } 
@@ -512,15 +512,15 @@ ai_will_do = {
 
 #Focus for United States Advisors
 focus = { 
-id = Prussia_unitedstatesadvisors
+id = X67_unitedstatesadvisors
 icon = GFX_goal_unknown
 x = 9
 y = 7
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_forcethewealthytopaycompensation focus = Prussia_threatenthepeasantpopulation } 
-mutually_exclusive = { focus = Prussia_frenchadvisors } 
-mutually_exclusive = { focus = Prussia_britishadvisors } 
+prerequisite = { focus = X67_forcethewealthytopaycompensation focus = X67_threatenthepeasantpopulation } 
+mutually_exclusive = { focus = X67_frenchadvisors } 
+mutually_exclusive = { focus = X67_britishadvisors } 
 ai_will_do = { 
  factor = 1
  } 
@@ -529,13 +529,13 @@ ai_will_do = {
 
 #Focus for Industrialization
 focus = { 
-id = Prussia_industrialization
+id = X67_industrialization
 icon = GFX_goal_unknown
 x = 11
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_preuischewirtschaft } 
+prerequisite = { focus = X67_preuischewirtschaft } 
 ai_will_do = { 
  factor = 1
  } 
@@ -544,13 +544,13 @@ ai_will_do = {
 
 #Focus for Learn from Frederick
 focus = { 
-id = Prussia_learnfromfrederick
+id = X67_learnfromfrederick
 icon = GFX_goal_unknown
 x = 14
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_preuischewirtschaft } 
+prerequisite = { focus = X67_preuischewirtschaft } 
 ai_will_do = { 
  factor = 1
  } 
@@ -559,13 +559,13 @@ ai_will_do = {
 
 #Focus for Education
 focus = { 
-id = Prussia_education
+id = X67_education
 icon = GFX_goal_unknown
 x = 5
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_preuischewirtschaft } 
+prerequisite = { focus = X67_preuischewirtschaft } 
 ai_will_do = { 
  factor = 1
  } 
@@ -574,13 +574,13 @@ ai_will_do = {
 
 #Focus for Tariff Laws
 focus = { 
-id = Prussia_tarifflaws
+id = X67_tarifflaws
 icon = GFX_goal_unknown
 x = 8
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_preuischewirtschaft } 
+prerequisite = { focus = X67_preuischewirtschaft } 
 ai_will_do = { 
  factor = 1
  } 
@@ -589,16 +589,16 @@ ai_will_do = {
 
 #Focus for British  Advisors
 focus = { 
-id = Prussia_britishadvisors
+id = X67_britishadvisors
 icon = GFX_goal_unknown
 x = 1
 y = 7
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_threatenthepeasantpopulation focus = Prussia_forcethewealthytopaycompensation } 
-mutually_exclusive = { focus = Prussia_frenchadvisors } 
-mutually_exclusive = { focus = Prussia_unitedstatesadvisors } 
-mutually_exclusive = { focus = Prussia_ } 
+prerequisite = { focus = X67_threatenthepeasantpopulation focus = X67_forcethewealthytopaycompensation } 
+mutually_exclusive = { focus = X67_frenchadvisors } 
+mutually_exclusive = { focus = X67_unitedstatesadvisors } 
+mutually_exclusive = { focus = X67_ } 
 ai_will_do = { 
  factor = 1
  } 
@@ -607,13 +607,13 @@ ai_will_do = {
 
 #Focus for Fertile land Reforms
 focus = { 
-id = Prussia_fertilelandreforms
+id = X67_fertilelandreforms
 icon = GFX_goal_unknown
 x = 13
 y = 4
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_agriculturalreform } 
+prerequisite = { focus = X67_agriculturalreform } 
 ai_will_do = { 
  factor = 1
  } 
@@ -622,14 +622,14 @@ ai_will_do = {
 
 #Focus for Austrian Rivals
 focus = { 
-id = Prussia_austrianrivals
+id = X67_austrianrivals
 icon = GFX_goal_unknown
 x = 11
 y = 5
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_brandenburgindustrialization } 
-prerequisite = { focus = Prussia_fertilelandreforms } 
+prerequisite = { focus = X67_brandenburgindustrialization } 
+prerequisite = { focus = X67_fertilelandreforms } 
 ai_will_do = { 
  factor = 1
  } 
@@ -638,17 +638,17 @@ ai_will_do = {
 
 #Focus for Scientific research
 focus = { 
-id = Prussia_scientificresearch
+id = X67_scientificresearch
 icon = GFX_goal_unknown
 x = 6
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_education } 
-prerequisite = { focus = Prussia_learnfromfrederick } 
-prerequisite = { focus = Prussia_tarifflaws } 
-prerequisite = { focus = Prussia_industrialization } 
-prerequisite = { focus = Prussia_zollverein } 
+prerequisite = { focus = X67_education } 
+prerequisite = { focus = X67_learnfromfrederick } 
+prerequisite = { focus = X67_tarifflaws } 
+prerequisite = { focus = X67_industrialization } 
+prerequisite = { focus = X67_zollverein } 
 ai_will_do = { 
  factor = 1
  } 
@@ -657,17 +657,17 @@ ai_will_do = {
 
 #Focus for Mechanical tools
 focus = { 
-id = Prussia_mechanicaltools
+id = X67_mechanicaltools
 icon = GFX_goal_unknown
 x = 4
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_tarifflaws } 
-prerequisite = { focus = Prussia_education } 
-prerequisite = { focus = Prussia_learnfromfrederick } 
-prerequisite = { focus = Prussia_industrialization } 
-prerequisite = { focus = Prussia_zollverein } 
+prerequisite = { focus = X67_tarifflaws } 
+prerequisite = { focus = X67_education } 
+prerequisite = { focus = X67_learnfromfrederick } 
+prerequisite = { focus = X67_industrialization } 
+prerequisite = { focus = X67_zollverein } 
 ai_will_do = { 
  factor = 1
  } 
@@ -676,17 +676,17 @@ ai_will_do = {
 
 #Focus for Increase Peasant Pay
 focus = { 
-id = Prussia_increasepeasantpay
+id = X67_increasepeasantpay
 icon = GFX_goal_unknown
 x = 0
 y = 3
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_education } 
-prerequisite = { focus = Prussia_learnfromfrederick } 
-prerequisite = { focus = Prussia_tarifflaws } 
-prerequisite = { focus = Prussia_zollverein } 
-prerequisite = { focus = Prussia_industrialization } 
+prerequisite = { focus = X67_education } 
+prerequisite = { focus = X67_learnfromfrederick } 
+prerequisite = { focus = X67_tarifflaws } 
+prerequisite = { focus = X67_zollverein } 
+prerequisite = { focus = X67_industrialization } 
 ai_will_do = { 
  factor = 1
  } 
@@ -695,13 +695,13 @@ ai_will_do = {
 
 #Focus for Fitness reforms
 focus = { 
-id = Prussia_fitnessreforms
+id = X67_fitnessreforms
 icon = GFX_goal_unknown
 x = 1
 y = 4
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_increasepeasantpay } 
+prerequisite = { focus = X67_increasepeasantpay } 
 ai_will_do = { 
  factor = 1
  } 
@@ -710,13 +710,13 @@ ai_will_do = {
 
 #Focus for Form the Bourgeoisie
 focus = { 
-id = Prussia_formthebourgeoisie
+id = X67_formthebourgeoisie
 icon = GFX_goal_unknown
 x = 1
 y = 5
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_fitnessreforms } 
+prerequisite = { focus = X67_fitnessreforms } 
 ai_will_do = { 
  factor = 1
  } 
@@ -725,14 +725,14 @@ ai_will_do = {
 
 #Focus for Collect foreign Investment
 focus = { 
-id = Prussia_collectforeigninvestment
+id = X67_collectforeigninvestment
 icon = GFX_goal_unknown
 x = 5
 y = 4
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_mechanicaltools } 
-prerequisite = { focus = Prussia_scientificresearch } 
+prerequisite = { focus = X67_mechanicaltools } 
+prerequisite = { focus = X67_scientificresearch } 
 ai_will_do = { 
  factor = 1
  } 
@@ -741,13 +741,13 @@ ai_will_do = {
 
 #Focus for Zollverein
 focus = { 
-id = Prussia_zollverein
+id = X67_zollverein
 icon = GFX_goal_unknown
 x = 2
 y = 2
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_preuischewirtschaft } 
+prerequisite = { focus = X67_preuischewirtschaft } 
 ai_will_do = { 
  factor = 1
  } 
@@ -756,13 +756,13 @@ ai_will_do = {
 
 #Focus for In Prison Unproductive Peasants
 focus = { 
-id = Prussia_inprisonunproductivepeasants
+id = X67_inprisonunproductivepeasants
 icon = GFX_goal_unknown
 x = 5
 y = 5
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_collectforeigninvestment } 
+prerequisite = { focus = X67_collectforeigninvestment } 
 ai_will_do = { 
  factor = 1
  } 
@@ -771,16 +771,16 @@ ai_will_do = {
 
 #Focus for Threaten the Peasant Population
 focus = { 
-id = Prussia_threatenthepeasantpopulation
+id = X67_threatenthepeasantpopulation
 icon = GFX_goal_unknown
 x = 7
 y = 6
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_inprisonunproductivepeasants } 
-prerequisite = { focus = Prussia_formthebourgeoisie } 
-mutually_exclusive = { focus = Prussia_forcethewealthytopaycompensation } 
-mutually_exclusive = { focus = Prussia_ } 
+prerequisite = { focus = X67_inprisonunproductivepeasants } 
+prerequisite = { focus = X67_formthebourgeoisie } 
+mutually_exclusive = { focus = X67_forcethewealthytopaycompensation } 
+mutually_exclusive = { focus = X67_ } 
 ai_will_do = { 
  factor = 1
  } 
@@ -789,15 +789,15 @@ ai_will_do = {
 
 #Focus for French Advisors
 focus = { 
-id = Prussia_frenchadvisors
+id = X67_frenchadvisors
 icon = GFX_goal_unknown
 x = 5
 y = 7
 cost = 10
 available_if_capitulated = yes 
-prerequisite = { focus = Prussia_threatenthepeasantpopulation focus = Prussia_forcethewealthytopaycompensation } 
-mutually_exclusive = { focus = Prussia_unitedstatesadvisors } 
-mutually_exclusive = { focus = Prussia_britishadvisors } 
+prerequisite = { focus = X67_threatenthepeasantpopulation focus = X67_forcethewealthytopaycompensation } 
+mutually_exclusive = { focus = X67_unitedstatesadvisors } 
+mutually_exclusive = { focus = X67_britishadvisors } 
 ai_will_do = { 
  factor = 1
  } 
@@ -806,7 +806,7 @@ ai_will_do = {
 
 #Focus for Diplomatic Question
 focus = { 
-id = Prussia_diplomaticquestion
+id = X67_diplomaticquestion
 icon = GFX_goal_unknown
 x = 45
 y = 1
