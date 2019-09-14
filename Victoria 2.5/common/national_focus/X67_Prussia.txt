@@ -10,7 +10,7 @@ focus_tree = {
 	#Focus for Kriegsspiel
 	focus = {
 		id = X67_kriegsspiel
-		icon = GFX_kriegsspiel
+		icon = GFX_goal_unknown
 		x = 35
 		y = 9
 		cost = 10
@@ -33,7 +33,7 @@ focus_tree = {
 	#Focus for Integrate Polish Militia
 	focus = {
 		id = X67_integratepolishmilitia
-		icon = GFX_integratepolishmilitia
+		icon = GFX_goal_unknown
 		x = 33
 		y = 5
 		cost = 10
@@ -50,7 +50,7 @@ focus_tree = {
 	#Focus for Reforms to the Cabinet
 	focus = {
 		id = X67_reformstothecabinet
-		icon = GFX_reformstothecabinet
+		icon = GFX_goal_unknown
 		x = 31
 		y = 4
 		cost = 10
@@ -64,7 +64,7 @@ focus_tree = {
 	#Focus for Power to the Generals
 	focus = {
 		id = X67_powertothegenerals
-		icon = GFX_powertothegenerals
+		icon = GFX_goal_unknown
 		x = 37
 		y = 3
 		cost = 10
@@ -149,7 +149,7 @@ focus_tree = {
 	#Focus for Power to the King
 	focus = {
 		id = X67_powertotheking
-		icon = GFX_powertotheking
+		icon = GFX_goal_unknown
 		x = 31
 		y = 3
 		cost = 10
@@ -164,7 +164,7 @@ focus_tree = {
 	#Focus for Prussia Army
 	focus = {
 		id = X67_prussiaarmy
-		icon = GFX_prussiaarmy
+		icon = GFX_goal_unknown
 		x = 27
 		y = 1
 		cost = 10
@@ -249,7 +249,7 @@ focus_tree = {
 	#Focus for Military Theory
 	focus = {
 		id = X67_militarytheory
-		icon = GFX_militarytheory
+		icon = GFX_goal_unknown
 		x = 30
 		y = 8
 		cost = 10
@@ -271,7 +271,7 @@ focus_tree = {
 	#Focus for Skirmish Warfare
 	focus = {
 		id = X67_skirmishwarfare
-		icon = GFX_skirmishwarfare
+		icon = GFX_goal_unknown
 		x = 25
 		y = 9
 		cost = 10
@@ -291,7 +291,7 @@ focus_tree = {
 	#Focus for Wave Attack
 	focus = {
 		id = X67_waveattack
-		icon = GFX_waveattack
+		icon = GFX_goal_unknown
 		x = 29
 		y = 9
 		cost = 10
@@ -311,7 +311,7 @@ focus_tree = {
 	#Focus for Artillerie-Entwicklung
 	focus = {
 		id = X67_artillerieentwicklung
-		icon = GFX_artillerieentwicklung
+		icon = GFX_goal_unknown
 		x = 36
 		y = 7
 		cost = 10
@@ -325,7 +325,7 @@ focus_tree = {
 	#Focus for Military Research
 	focus = {
 		id = X67_militaryresearch
-		icon = GFX_militaryresearch
+		icon = GFX_goal_unknown
 		x = 36
 		y = 5
 		cost = 10
@@ -342,7 +342,7 @@ focus_tree = {
 	#Focus for Preußische Loyalität
 	focus = {
 		id = X67_preuischeloyalitt
-		icon = GFX_preuischeloyalitt
+		icon = GFX_goal_unknown
 		x = 36
 		y = 6
 		cost = 10
@@ -457,7 +457,7 @@ focus_tree = {
 	#Focus for Agricultural reform
 	focus = {
 		id = X67_agriculturalreform
-		icon = GFX_agriculturalreform
+		icon = GFX_goal_unknown
 		x = 11
 		y = 3
 		cost = 10
@@ -564,7 +564,7 @@ focus_tree = {
 	#Focus for Industrialization
 	focus = {
 		id = X67_industrialization
-		icon = GFX_industrialization
+		icon = GFX_goal_unknown
 		x = 11
 		y = 2
 		cost = 10
@@ -592,7 +592,7 @@ focus_tree = {
 	#Focus for Education
 	focus = {
 		id = X67_education
-		icon = GFX_education
+		icon = GFX_goal_unknown
 		x = 5
 		y = 2
 		cost = 10
@@ -606,7 +606,7 @@ focus_tree = {
 	#Focus for Tariff Laws
 	focus = {
 		id = X67_tarifflaws
-		icon = GFX_tarifflaws
+		icon = GFX_goal_unknown
 		x = 8
 		y = 2
 		cost = 10
@@ -679,7 +679,7 @@ focus_tree = {
 	#Focus for Scientific research
 	focus = {
 		id = X67_scientificresearch
-		icon = GFX_goal_tfv_generic_tech_sharing
+		icon = GFX_goal_unknown
 		x = 6
 		y = 3
 		cost = 10
@@ -707,7 +707,7 @@ focus_tree = {
 	#Focus for Mechanical tools
 	focus = {
 		id = X67_mechanicaltools
-		icon = GFX_goal_generic_production2
+		icon = GFX_goal_unknown
 		x = 4
 		y = 3
 		cost = 10
@@ -810,7 +810,7 @@ focus_tree = {
 	#Focus for Zollverein
 	focus = {
 		id = X67_zollverein
-		icon = GFX_zollverein
+		icon = GFX_goal_unknown
 		x = 2
 		y = 2
 		cost = 10
