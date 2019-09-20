@@ -10,7 +10,7 @@ focus_tree = {
 	#Focus for Kriegsspiel
 	focus = {
 		id = X67_kriegsspiel
-		icon = GFX_goal_unknown
+		icon = GFX_kriegsspiel
 		x = 35
 		y = 9
 		cost = 10
@@ -20,7 +20,7 @@ focus_tree = {
 			focus = X67_skirmishwarfare 
 		}
 		mutually_exclusive = { 
-			focus = X67_waveattack 
+			focus = X67_calvary 
 		}
 		mutually_exclusive = { 
 			focus = X67_ 
@@ -50,7 +50,7 @@ focus_tree = {
 	#Focus for Reforms to the Cabinet
 	focus = {
 		id = X67_reformstothecabinet
-		icon = GFX_goal_unknown
+		icon = GFX_reformstothecabinet
 		x = 31
 		y = 4
 		cost = 10
@@ -271,14 +271,14 @@ focus_tree = {
 	#Focus for Skirmish Warfare
 	focus = {
 		id = X67_skirmishwarfare
-		icon = GFX_goal_unknown
+		icon = GFX_skirmishwarfare
 		x = 25
 		y = 9
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = X67_militarytheory }
 		mutually_exclusive = { 
-			focus = X67_waveattack 
+			focus = X67_calvary 
 		}
 		mutually_exclusive = { 
 			focus = X67_kriegsspiel 
@@ -288,10 +288,10 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Wave Attack
+	#Focus for Calvary
 	focus = {
-		id = X67_waveattack
-		icon = GFX_goal_unknown
+		id = X67_calvary
+		icon = GFX_calvary
 		x = 29
 		y = 9
 		cost = 10
@@ -356,7 +356,7 @@ focus_tree = {
 	#Focus for Force the wealthy to pay compensation
 	focus = {
 		id = X67_forcethewealthytopaycompensation
-		icon = GFX_goal_unknown
+		icon = GFX_forcethewealthytopaycompensation
 		x = 3
 		y = 6
 		cost = 10
@@ -592,7 +592,7 @@ focus_tree = {
 	#Focus for Education
 	focus = {
 		id = X67_education
-		icon = GFX_goal_unknown
+		icon = GFX_education
 		x = 5
 		y = 2
 		cost = 10
@@ -910,6 +910,62 @@ focus_tree = {
 		}
 	}
 
+	#Focus for Befriend Austria
+	focus = {
+		id = X67_befriendaustria
+		icon = GFX_goal_unknown
+		x = 48
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = X67_challengeaustria }
+		mutually_exclusive = { focus = X67_influencebavaria }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Super Germany
+	focus = {
+		id = X67_supergermany
+		icon = GFX_goal_unknown
+		x = 47
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = X67_nobismark }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for One More Step to Bismark
+	focus = {
+		id = X67_onemoresteptobismark
+		icon = GFX_goal_unknown
+		x = 51
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = X67_influencebavaria }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Preußen politik
+	focus = {
+		id = X67_preuenpolitik
+		icon = GFX_goal_unknown
+		x = 65
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	#Focus for Weaken France
 	focus = {
 		id = X67_weakenfrance
@@ -947,6 +1003,7 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = X67_challengeaustria }
+		mutually_exclusive = { focus = X67_befriendaustria }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1033,6 +1090,34 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = X67_outclassbritain }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for No Bismark
+	focus = {
+		id = X67_nobismark
+		icon = GFX_goal_unknown
+		x = 47
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = X67_befriendaustria }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Thoughts of German unification
+	focus = {
+		id = X67_thoughtsofgermanunification
+		icon = GFX_goal_unknown
+		x = 51
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = X67_onemoresteptobismark }
 		ai_will_do = {
 			factor = 1
 		}
