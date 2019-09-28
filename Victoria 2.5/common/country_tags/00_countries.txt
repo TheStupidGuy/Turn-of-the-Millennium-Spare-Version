@@ -1,3 +1,4 @@
+
 AFG = "countries/Afghanistan.txt"
 ALB = "countries/Albania.txt"
 ALG = "countries/Algeria.txt"
@@ -81,7 +82,6 @@ PHI = "countries/Philippines.txt"
 POL = "countries/Poland.txt"
 POR = "countries/Portugal.txt"
 PRU = "countries/Peru.txt"
-ROM = "countries/Roman Empire.txt"
 QUE = "countries/Quebec.txt"
 RAJ = "countries/India.txt"
 ROM = "countries/Romania.txt"
