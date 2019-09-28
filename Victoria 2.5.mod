@@ -7,7 +7,7 @@ replace_path="common/national_focus"
 replace_path="common/decisions"
 replace_path="history/countries"
 replace_path="history/states"
-user_dir="Victoria_2.5_user_dir"
+user_dir="Turn_of_the_Millennium_user_dir"
 tags={
 	"Fixes"
 	"Events"
