@@ -1,5 +1,5 @@
 name="Victoria 2.5"
-path="mod/Victoria 2.5/"
+path="mod/Dawn_of_the_Millennium/"
 replace_path="events"
 replace_path="common/ideologies"
 replace_path="common/ideas"
